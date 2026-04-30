@@ -1,0 +1,48 @@
+{
+    "collection": {
+        "info": {
+            "_postman_id": "6c4cb109-d8fe-4b34-8023-f0611cafe409",
+            "name": "Activity Service",
+            "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+            "createdAt": "2026-03-17T15:35:49.000Z",
+            "updatedAt": "2026-03-17T15:36:03.000Z",
+            "lastUpdatedBy": "32420106",
+            "uid": "32420106-6c4cb109-d8fe-4b34-8023-f0611cafe409"
+        },
+        "item": [
+            {
+                "name": "Track Activity",
+                "id": "841b692d-e2ec-496a-8501-eee8665c9a10",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                        "mode": "raw",
+                        "raw": "{\r\n    \"userId\":\"db3725aa-c59c-4705-81fc-3de5c514bbe9\",\r\n    \"type\": \"RUNNING\",\r\n    \"duration\": 300,\r\n    \"caloriesBurned\": 300,\r\n    \"startTime\": \"2025-08-11T16:21:35.5698745\",\r\n    \"additionalMetrics\": {\r\n        \"distanceKm\": 8.5,\r\n        \"averageHeartRate\": 140,\r\n        \"steps\": 10500\r\n    }\r\n}",
+                        "options": {
+                            "raw": {
+                                "language": "json"
+                            }
+                        }
+                    },
+                    "url": {
+                        "raw": "{{BASE_URL_8081}}/activity",
+                        "host": [
+                            "{{BASE_URL_8081}}"
+                        ],
+                        "path": [
+                            "activity"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2026-03-17T15:36:03.000Z",
+                "updatedAt": "2026-03-18T02:59:41.000Z",
+                "uid": "32420106-841b692d-e2ec-496a-8501-eee8665c9a10"
+            }
+        ]
+    }
+}

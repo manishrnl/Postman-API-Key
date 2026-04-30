@@ -1,0 +1,162 @@
+{
+    "collection": {
+        "info": {
+            "_postman_id": "5908016f-1155-4afd-860e-4b487693a847",
+            "name": "User Service",
+            "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+            "createdAt": "2026-03-17T09:30:10.000Z",
+            "updatedAt": "2026-03-18T10:25:15.000Z",
+            "lastUpdatedBy": "32420106",
+            "uid": "32420106-5908016f-1155-4afd-860e-4b487693a847"
+        },
+        "item": [
+            {
+                "name": "Get All Users",
+                "id": "d2a09973-467b-45ac-b0a8-d1bd713c7d1c",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                        "raw": "{{BASE_URL_8080}}/users/allUser",
+                        "host": [
+                            "{{BASE_URL_8080}}"
+                        ],
+                        "path": [
+                            "users",
+                            "allUser"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2026-03-17T09:30:13.000Z",
+                "updatedAt": "2026-03-18T02:04:21.000Z",
+                "uid": "32420106-d2a09973-467b-45ac-b0a8-d1bd713c7d1c"
+            },
+            {
+                "name": "Create Users",
+                "id": "3c56cb36-0131-4929-aa14-1c3d5c9377c8",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                        "mode": "raw",
+                        "raw": "{\r\n    \"email\": \"manish.rnl1@zohomail.in\",\r\n    \"password\": \"Manish@2009\",\r\n    \"firstName\": \"Manish\",\r\n    \"lastName\": \"Kumar\",\r\n    \"role\": \"ADMIN\"\r\n}",
+                        "options": {
+                            "raw": {
+                                "language": "json"
+                            }
+                        }
+                    },
+                    "url": {
+                        "raw": "{{BASE_URL_8080}}/users/register",
+                        "host": [
+                            "{{BASE_URL_8080}}"
+                        ],
+                        "path": [
+                            "users",
+                            "register"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2026-03-17T09:53:35.000Z",
+                "updatedAt": "2026-03-18T02:32:11.000Z",
+                "uid": "32420106-3c56cb36-0131-4929-aa14-1c3d5c9377c8"
+            },
+            {
+                "name": "Get Users Profile",
+                "id": "6cea473a-57f8-454c-8e23-2d65f306c9b7",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                        "raw": "{{BASE_URL_8080}}/users/getProfile/ba47c65c-4dca-45c7-828b-326f6e7357b4",
+                        "host": [
+                            "{{BASE_URL_8080}}"
+                        ],
+                        "path": [
+                            "users",
+                            "getProfile",
+                            "ba47c65c-4dca-45c7-828b-326f6e7357b4"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2026-03-17T13:21:51.000Z",
+                "updatedAt": "2026-03-17T15:51:39.000Z",
+                "uid": "32420106-6cea473a-57f8-454c-8e23-2d65f306c9b7"
+            },
+            {
+                "name": "Validate User",
+                "id": "a16f8bf2-3177-4084-b1ec-46d58d031a94",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                        "raw": "{{BASE_URL_8080}}/users/getProfile/ba47c65c-4dca-45c7-828b-326f6e7357b4/validate",
+                        "host": [
+                            "{{BASE_URL_8080}}"
+                        ],
+                        "path": [
+                            "users",
+                            "getProfile",
+                            "ba47c65c-4dca-45c7-828b-326f6e7357b4",
+                            "validate"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2026-03-18T01:59:26.000Z",
+                "updatedAt": "2026-03-18T01:59:41.000Z",
+                "uid": "32420106-a16f8bf2-3177-4084-b1ec-46d58d031a94"
+            },
+            {
+                "name": "New Request",
+                "id": "7372cda5-3d62-4bbc-adf1-d55d1fa0a87f",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "method": "GET",
+                    "header": [],
+                    "body": {
+                        "mode": "raw",
+                        "raw": "curl \"https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent\" \\\r\n  -H 'Content-Type: application/json' \\\r\n  -H 'X-goog-api-key: AIzaSyDX2GWl4AdZsDAVORzKQe4qn52bo1c23GA' \\\r\n  -X POST \\\r\n  -d '{\r\n    \"contents\": [\r\n      {\r\n        \"parts\": [\r\n          {\r\n            \"text\": \"Explain how AI works in a few words\"\r\n          }\r\n        ]\r\n      }\r\n    ]\r\n  }'",
+                        "options": {
+                            "raw": {
+                                "language": "json"
+                            }
+                        }
+                    },
+                    "url": {
+                        "raw": "http://localhost:8761/login",
+                        "protocol": "http",
+                        "host": [
+                            "localhost"
+                        ],
+                        "port": "8761",
+                        "path": [
+                            "login"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2026-03-18T10:25:15.000Z",
+                "updatedAt": "2026-03-18T13:30:09.000Z",
+                "uid": "32420106-7372cda5-3d62-4bbc-adf1-d55d1fa0a87f"
+            }
+        ]
+    }
+}

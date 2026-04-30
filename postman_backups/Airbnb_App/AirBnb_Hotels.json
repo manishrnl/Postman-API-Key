@@ -1,0 +1,422 @@
+{
+    "collection": {
+        "info": {
+            "_postman_id": "1491b279-0d44-4c3f-a040-a6365e750914",
+            "name": "AirBnb Hotels",
+            "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+            "createdAt": "2024-02-15T13:22:21.000Z",
+            "updatedAt": "2026-03-21T04:44:44.000Z",
+            "lastUpdatedBy": "32420106",
+            "uid": "32420106-1491b279-0d44-4c3f-a040-a6365e750914"
+        },
+        "item": [
+            {
+                "name": "Add Hotel",
+                "id": "18e08ff3-3335-44f9-8598-feafc8da8e74",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{AccessToken}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                        "mode": "raw",
+                        "raw": "{\r\n    \"name\": \"Shyam\",\r\n    \"city\": \"Gokul\",\r\n    \"amenities\": [\r\n        \"WiFi\",\r\n        \"Parking\",\r\n        \"Pool\"\r\n    ],\r\n    \"photos\": [\r\n        \"https://tse1.mm.bing.net/th/id/OIP.FtudhIBH-HYhxMpS4TU-sAHaE8?pid=Apihttps://tse1.mm.bing.net/th/id/OIP.FtudhIBH-HYhxMpS4TU-sAHaE8?pid=Api\"\r\n    ],\r\n    \"contactInfo\": {\r\n        \"address\": \"Goa Loak\",\r\n        \"phoneNumber\": \"1233333\",\r\n        \"email\": \"goaLoak@example.com\",\r\n        \"location\": \"Goa Loak\"\r\n    },\r\n    \"active\": true\r\n}",
+                        "options": {
+                            "raw": {
+                                "language": "json"
+                            }
+                        }
+                    },
+                    "url": {
+                        "raw": "{{BASE_URL/API/V1}}/admin/hotels",
+                        "host": [
+                            "{{BASE_URL/API/V1}}"
+                        ],
+                        "path": [
+                            "admin",
+                            "hotels"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2025-10-12T12:18:14.000Z",
+                "updatedAt": "2026-03-20T08:00:23.000Z",
+                "uid": "32420106-18e08ff3-3335-44f9-8598-feafc8da8e74"
+            },
+            {
+                "name": "Get Hotel By Id",
+                "id": "0f6fb22b-83fb-424c-b6ba-4ddc5f3e46ab",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{AccessToken}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                        "raw": "{{BASE_URL/API/V1}}/admin/hotels/1",
+                        "host": [
+                            "{{BASE_URL/API/V1}}"
+                        ],
+                        "path": [
+                            "admin",
+                            "hotels",
+                            "1"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2025-10-12T12:18:33.000Z",
+                "updatedAt": "2026-03-20T08:03:02.000Z",
+                "uid": "32420106-0f6fb22b-83fb-424c-b6ba-4ddc5f3e46ab"
+            },
+            {
+                "name": "Get all Hotels Of Current Users",
+                "id": "ac0faedc-d0eb-4407-9f7a-680259aebca0",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{AccessToken}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                        "raw": "{{BASE_URL/API/V1}}/admin/hotels/currentUser",
+                        "host": [
+                            "{{BASE_URL/API/V1}}"
+                        ],
+                        "path": [
+                            "admin",
+                            "hotels",
+                            "currentUser"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2025-10-12T12:35:52.000Z",
+                "updatedAt": "2026-03-21T04:44:38.000Z",
+                "uid": "32420106-ac0faedc-d0eb-4407-9f7a-680259aebca0"
+            },
+            {
+                "name": "Get all Hotels",
+                "id": "fb1977bb-ec43-422d-91cd-e16f41219e83",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{AccessToken}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                        "raw": "{{BASE_URL/API/V1}}/admin/hotels/allHotels",
+                        "host": [
+                            "{{BASE_URL/API/V1}}"
+                        ],
+                        "path": [
+                            "admin",
+                            "hotels",
+                            "allHotels"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2026-03-21T04:44:44.000Z",
+                "updatedAt": "2026-03-21T04:45:06.000Z",
+                "uid": "32420106-fb1977bb-ec43-422d-91cd-e16f41219e83"
+            },
+            {
+                "name": "Delete By Id",
+                "id": "f2a06da5-2a8b-44c0-a641-96f9c0bb409b",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{vault:AirBnb Login Token}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "DELETE",
+                    "header": [],
+                    "body": {
+                        "mode": "raw",
+                        "raw": ""
+                    },
+                    "url": {
+                        "raw": "http://localhost:8080/admin/hotels/1",
+                        "protocol": "http",
+                        "host": [
+                            "localhost"
+                        ],
+                        "port": "8080",
+                        "path": [
+                            "admin",
+                            "hotels",
+                            "1"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2025-10-13T05:10:26.000Z",
+                "updatedAt": "2025-12-26T12:08:23.000Z",
+                "uid": "32420106-f2a06da5-2a8b-44c0-a641-96f9c0bb409b"
+            },
+            {
+                "name": "Update By Id",
+                "id": "4cf88aaa-726e-4ab0-abe9-ccf327a3c618",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "method": "PUT",
+                    "header": [],
+                    "body": {
+                        "mode": "raw",
+                        "raw": "{\r\n    \"name\": \"ABC\",\r\n    \"city\": \"Gokul\",\r\n    \"photos\":[ \"https://example.com/photo2.jpg\"],\r\n    \"amenities\": [\r\n        \"WiFi\",\r\n        \"Pool\"\r\n    ],\r\n    \"contactInfo\": {\r\n        \"address\": \"1\",\r\n        \"phoneNumber\": \"2\",\r\n        \"email\": \"3@3.com\",\r\n        \"location\": \"4\"\r\n    },\r\n    \"active\": true\r\n}",
+                        "options": {
+                            "raw": {
+                                "language": "json"
+                            }
+                        }
+                    },
+                    "url": {
+                        "raw": "http://localhost:8080/api/v1/admin/hotels/4",
+                        "protocol": "http",
+                        "host": [
+                            "localhost"
+                        ],
+                        "port": "8080",
+                        "path": [
+                            "api",
+                            "v1",
+                            "admin",
+                            "hotels",
+                            "4"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2025-10-13T03:28:32.000Z",
+                "updatedAt": "2025-10-16T11:34:14.000Z",
+                "uid": "32420106-4cf88aaa-726e-4ab0-abe9-ccf327a3c618"
+            },
+            {
+                "name": "Activate Hotel",
+                "id": "df60f9fd-f1d3-4f06-9136-62e1d2e8f046",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{AccessToken}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "PATCH",
+                    "header": [],
+                    "url": {
+                        "raw": "{{BABE_URL/API/V1}}/admin/hotels/1/activate",
+                        "host": [
+                            "{{BABE_URL/API/V1}}"
+                        ],
+                        "path": [
+                            "admin",
+                            "hotels",
+                            "1",
+                            "activate"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2025-10-13T07:56:03.000Z",
+                "updatedAt": "2026-03-22T01:59:10.000Z",
+                "uid": "32420106-df60f9fd-f1d3-4f06-9136-62e1d2e8f046"
+            },
+            {
+                "name": "Get Bookings By Id",
+                "id": "2a25aa2d-e74e-4515-8c18-b8e3a6706ae2",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{vault:AirBnb Login Token}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "GET",
+                    "header": [],
+                    "body": {
+                        "mode": "raw",
+                        "raw": ""
+                    },
+                    "url": {
+                        "raw": "http://localhost:8080/admin/hotels/1/bookings",
+                        "protocol": "http",
+                        "host": [
+                            "localhost"
+                        ],
+                        "port": "8080",
+                        "path": [
+                            "admin",
+                            "hotels",
+                            "1",
+                            "bookings"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2025-12-26T11:46:57.000Z",
+                "updatedAt": "2025-12-26T11:50:14.000Z",
+                "uid": "32420106-2a25aa2d-e74e-4515-8c18-b8e3a6706ae2"
+            },
+            {
+                "name": "Generate Hotel Reports",
+                "id": "f84d8c39-d233-4f2b-81ff-e95f24b2f90b",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{vault:AirBnb Login Token}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "GET",
+                    "header": [],
+                    "body": {
+                        "mode": "raw",
+                        "raw": "{\r\n    \"hotelId\":1,\r\n    \"startDate\":\"2026-01-01\",\r\n    \"endDate\":\"2026-12-31\"\r\n}",
+                        "options": {
+                            "raw": {
+                                "language": "json"
+                            }
+                        }
+                    },
+                    "url": {
+                        "raw": "http://localhost:8080/admin/hotels/1/reports",
+                        "protocol": "http",
+                        "host": [
+                            "localhost"
+                        ],
+                        "port": "8080",
+                        "path": [
+                            "admin",
+                            "hotels",
+                            "1",
+                            "reports"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2025-12-26T11:50:39.000Z",
+                "updatedAt": "2025-12-26T11:53:08.000Z",
+                "uid": "32420106-f84d8c39-d233-4f2b-81ff-e95f24b2f90b"
+            },
+            {
+                "name": "Update Hotel By Id",
+                "id": "e71ccb5b-57ad-46e7-be19-08f678fd6c6b",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{AccessToken}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "PUT",
+                    "header": [],
+                    "body": {
+                        "mode": "raw",
+                        "raw": "{\r\n    \"name\": \"Radha\",\r\n    \"city\": \"Goaa Loak\",\r\n    \"photos\": [\r\n        \"https://tse1.mm.bing.net/th/id/OIP.FtudhIBH-HYhxMpS4TU-sAHaE8?pid=Apihttps://tse1.mm.bing.net/th/id/OIP.FtudhIBH-HYhxMpS4TU-sAHaE8?pid=Api\"\r\n    ],\r\n    \"amenities\": [\r\n        \"WiFi\",\r\n        \"Parking\",\r\n        \"Pool\"\r\n    ],\r\n    \"contactInfo\": {\r\n        \"email\": \"updated@example.com\",\r\n        \"phoneNumber\": \"95878965485\",\r\n        \"address\": \"Goa Loak\",\r\n        \"location\": \"Goa Loak\"\r\n    },\r\n    \"active\": true\r\n}",
+                        "options": {
+                            "raw": {
+                                "language": "json"
+                            }
+                        }
+                    },
+                    "url": {
+                        "raw": "{{BASE_URL/API/V1}}/admin/hotels/1/updateHotels",
+                        "host": [
+                            "{{BASE_URL/API/V1}}"
+                        ],
+                        "path": [
+                            "admin",
+                            "hotels",
+                            "1",
+                            "updateHotels"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2025-12-26T11:55:21.000Z",
+                "updatedAt": "2026-03-20T08:04:11.000Z",
+                "uid": "32420106-e71ccb5b-57ad-46e7-be19-08f678fd6c6b"
+            }
+        ]
+    }
+}

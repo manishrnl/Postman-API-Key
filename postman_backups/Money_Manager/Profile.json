@@ -1,0 +1,172 @@
+{
+    "collection": {
+        "info": {
+            "_postman_id": "984e34c8-4872-43b3-a8d7-7e8f444640db",
+            "name": "Profile",
+            "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+            "createdAt": "2026-03-26T08:00:19.000Z",
+            "updatedAt": "2026-04-06T02:30:15.000Z",
+            "lastUpdatedBy": "32420106",
+            "uid": "32420106-984e34c8-4872-43b3-a8d7-7e8f444640db"
+        },
+        "item": [
+            {
+                "name": "Register Users",
+                "id": "f2accb98-1aec-4e47-87ab-31c92e6df8f9",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                        "mode": "raw",
+                        "raw": "{\r\n    \"fullName\": \"Manish Kumar\",\r\n    \"email\": \"manish1.rnl@zohomail.in\",\r\n    \"password\": \"password\",\r\n    \"profileImageUrl\": \"https://lh3.googleusercontent.com/a/ACg8ocLoqMb3wgVkYC5TnSiBo-m5lZi-7EdTXyKwCy52BnPEAfqF0fI6=s324-c-no\"\r\n}",
+                        "options": {
+                            "raw": {
+                                "language": "json"
+                            }
+                        }
+                    },
+                    "url": {
+                        "raw": "{{BACKEND_URL}}/api/v1/profile/register",
+                        "host": [
+                            "{{BACKEND_URL}}"
+                        ],
+                        "path": [
+                            "api",
+                            "v1",
+                            "profile",
+                            "register"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2026-03-26T07:59:22.000Z",
+                "updatedAt": "2026-04-06T03:00:19.000Z",
+                "uid": "32420106-f2accb98-1aec-4e47-87ab-31c92e6df8f9"
+            },
+            {
+                "name": "Get User Profile",
+                "id": "86dd7ae6-ec1b-453f-81a7-da5ce4c2913e",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{AccessToken}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                        "raw": "{{8787_URL}}/api/v1/profile",
+                        "host": [
+                            "{{8787_URL}}"
+                        ],
+                        "path": [
+                            "api",
+                            "v1",
+                            "profile"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2026-03-26T08:30:15.000Z",
+                "updatedAt": "2026-03-30T08:43:21.000Z",
+                "uid": "32420106-86dd7ae6-ec1b-453f-81a7-da5ce4c2913e"
+            },
+            {
+                "name": "Login User",
+                "id": "95257615-4583-4ea6-ae6c-c6baa43f9106",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "noauth"
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                        "mode": "raw",
+                        "raw": "{   \r\n    \"email\":\"manish.rnl@zohomail.in\",\r\n    \"password\":\"Manish@123456\"\r\n    \r\n}",
+                        "options": {
+                            "raw": {
+                                "language": "json"
+                            }
+                        }
+                    },
+                    "url": {
+                        "raw": "{{8787_URL}}/api/v1/profile/login",
+                        "host": [
+                            "{{8787_URL}}"
+                        ],
+                        "path": [
+                            "api",
+                            "v1",
+                            "profile",
+                            "login"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2026-03-30T08:42:36.000Z",
+                "updatedAt": "2026-04-07T09:19:50.000Z",
+                "uid": "32420106-95257615-4583-4ea6-ae6c-c6baa43f9106"
+            },
+            {
+                "name": "Refresh Token",
+                "id": "25715351-99cc-4770-bd0d-aaa0fc9fd95f",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "noauth"
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                        "mode": "raw",
+                        "raw": "",
+                        "options": {
+                            "raw": {
+                                "language": "json"
+                            }
+                        }
+                    },
+                    "url": {
+                        "raw": "{{8787_URL}}/api/v1/profile/refresh/eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIzIiwiaWF0IjoxNzc1NDQ0NDQwLCJleHAiOjE3OTA5OTY0NDB9.RP01sIhs0NoWATydjEDHtVfVW-qxf9Bd7spzizPRUeGEaIiXNKtuEQ8_KPKMEFBr9bkqm39D9nr8spcD7jxLfQ",
+                        "host": [
+                            "{{8787_URL}}"
+                        ],
+                        "path": [
+                            "api",
+                            "v1",
+                            "profile",
+                            "refresh",
+                            "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIzIiwiaWF0IjoxNzc1NDQ0NDQwLCJleHAiOjE3OTA5OTY0NDB9.RP01sIhs0NoWATydjEDHtVfVW-qxf9Bd7spzizPRUeGEaIiXNKtuEQ8_KPKMEFBr9bkqm39D9nr8spcD7jxLfQ"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2026-04-06T02:30:14.000Z",
+                "updatedAt": "2026-04-06T03:09:23.000Z",
+                "uid": "32420106-25715351-99cc-4770-bd0d-aaa0fc9fd95f"
+            }
+        ],
+        "variable": [
+            {
+                "key": "BACKEND_URL",
+                "value": ""
+            }
+        ]
+    }
+}

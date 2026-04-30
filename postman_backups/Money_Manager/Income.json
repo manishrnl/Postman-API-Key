@@ -1,0 +1,285 @@
+{
+    "collection": {
+        "info": {
+            "_postman_id": "7e147598-9451-4856-a2b9-a46b81ff73a6",
+            "name": "Income",
+            "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+            "createdAt": "2026-03-28T09:06:26.000Z",
+            "updatedAt": "2026-04-04T07:50:23.000Z",
+            "lastUpdatedBy": "32420106",
+            "uid": "32420106-7e147598-9451-4856-a2b9-a46b81ff73a6"
+        },
+        "item": [
+            {
+                "name": "Stock Income",
+                "id": "0016034c-7068-4a4f-9af1-8a18eff8f343",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{AccessToken}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                        "mode": "raw",
+                        "raw": "{\r\n    \"name\": \"Stock Dividends - Q1\",\r\n    \"amount\": 150.00,\r\n      \"categoryId\": 1,\r\n    \"icon\": \"trending_down\"\r\n}",
+                        "options": {
+                            "raw": {
+                                "language": "json"
+                            }
+                        }
+                    },
+                    "url": {
+                        "raw": "{{BACKEND_URL}}/api/v1/incomes",
+                        "host": [
+                            "{{BACKEND_URL}}"
+                        ],
+                        "path": [
+                            "api",
+                            "v1",
+                            "incomes"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2026-03-28T09:06:49.000Z",
+                "updatedAt": "2026-04-05T03:01:43.000Z",
+                "uid": "32420106-0016034c-7068-4a4f-9af1-8a18eff8f343"
+            },
+            {
+                "name": "Update Stock Income",
+                "id": "1e4fcf6b-516f-40b6-948c-c2f22b9ecf9e",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{AccessToken}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "PUT",
+                    "header": [],
+                    "body": {
+                        "mode": "raw",
+                        "raw": "{\r\n    \"name\": \"Stock \",\r\n    \"amount\": 150.00,\r\n      \"categoryId\": 2,\r\n    \"icon\": \"trending_down\"\r\n}",
+                        "options": {
+                            "raw": {
+                                "language": "json"
+                            }
+                        }
+                    },
+                    "url": {
+                        "raw": "{{BACKEND_URL}}/api/v1/incomes/1",
+                        "host": [
+                            "{{BACKEND_URL}}"
+                        ],
+                        "path": [
+                            "api",
+                            "v1",
+                            "incomes",
+                            "1"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2026-04-04T07:50:23.000Z",
+                "updatedAt": "2026-04-05T08:22:27.000Z",
+                "uid": "32420106-1e4fcf6b-516f-40b6-948c-c2f22b9ecf9e"
+            },
+            {
+                "name": "All Income For Month",
+                "id": "da1ef7f1-ad2a-4f15-adc2-5e799647ccc3",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{AccessToken}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "GET",
+                    "header": [],
+                    "body": {
+                        "mode": "raw",
+                        "raw": "",
+                        "options": {
+                            "raw": {
+                                "language": "json"
+                            }
+                        }
+                    },
+                    "url": {
+                        "raw": "{{BACKEND_URL}}/api/v1/incomes",
+                        "host": [
+                            "{{BACKEND_URL}}"
+                        ],
+                        "path": [
+                            "api",
+                            "v1",
+                            "incomes"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2026-03-28T10:23:54.000Z",
+                "updatedAt": "2026-03-29T06:01:56.000Z",
+                "uid": "32420106-da1ef7f1-ad2a-4f15-adc2-5e799647ccc3"
+            },
+            {
+                "name": "Latest 5 Incomes",
+                "id": "e10021c8-db12-448c-a35c-584579a479ee",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{AccessToken}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "GET",
+                    "header": [],
+                    "body": {
+                        "mode": "raw",
+                        "raw": "",
+                        "options": {
+                            "raw": {
+                                "language": "json"
+                            }
+                        }
+                    },
+                    "url": {
+                        "raw": "{{BACKEND_URL}}/api/v1/incomes/latest",
+                        "host": [
+                            "{{BACKEND_URL}}"
+                        ],
+                        "path": [
+                            "api",
+                            "v1",
+                            "incomes",
+                            "latest"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2026-04-03T12:15:23.000Z",
+                "updatedAt": "2026-04-03T12:15:42.000Z",
+                "uid": "32420106-e10021c8-db12-448c-a35c-584579a479ee"
+            },
+            {
+                "name": "Salary Income",
+                "id": "ad3f5ef0-0859-4616-8e53-f992364e7e07",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{AccessToken}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                        "mode": "raw",
+                        "raw": "{\r\n    \"name\": \"Salary Credit\",\r\n    \"amount\": 150000.00,\r\n   \r\n    \"categoryId\": 2,\r\n    \"icon\": \"salary\"\r\n}",
+                        "options": {
+                            "raw": {
+                                "language": "json"
+                            }
+                        }
+                    },
+                    "url": {
+                        "raw": "{{BACKEND_URL}}/api/v1/incomes",
+                        "host": [
+                            "{{BACKEND_URL}}"
+                        ],
+                        "path": [
+                            "api",
+                            "v1",
+                            "incomes"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2026-03-28T10:22:33.000Z",
+                "updatedAt": "2026-04-03T13:01:37.000Z",
+                "uid": "32420106-ad3f5ef0-0859-4616-8e53-f992364e7e07"
+            },
+            {
+                "name": "Delete Income By Id",
+                "id": "d6759c37-6a52-4514-b17b-2c7c2d8f747b",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{AccessToken}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "DELETE",
+                    "header": [],
+                    "body": {
+                        "mode": "raw",
+                        "raw": ""
+                    },
+                    "url": {
+                        "raw": "http://localhost:8080/api/v1/incomes/1",
+                        "protocol": "http",
+                        "host": [
+                            "localhost"
+                        ],
+                        "port": "8080",
+                        "path": [
+                            "api",
+                            "v1",
+                            "incomes",
+                            "1"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2026-03-28T10:49:03.000Z",
+                "updatedAt": "2026-03-28T10:49:55.000Z",
+                "uid": "32420106-d6759c37-6a52-4514-b17b-2c7c2d8f747b"
+            }
+        ]
+    }
+}

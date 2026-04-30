@@ -1,0 +1,513 @@
+{
+    "collection": {
+        "info": {
+            "_postman_id": "d2904a29-b9b8-43b3-8962-e0ee0bb5ed33",
+            "name": "Category",
+            "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+            "createdAt": "2026-03-28T05:47:00.000Z",
+            "updatedAt": "2026-03-31T06:50:49.000Z",
+            "lastUpdatedBy": "32420106",
+            "uid": "32420106-d2904a29-b9b8-43b3-8962-e0ee0bb5ed33"
+        },
+        "item": [
+            {
+                "name": "Save Category",
+                "item": [
+                    {
+                        "name": "Save Category Transportation",
+                        "id": "f3bb00c0-db45-433c-8d02-43b722f924cc",
+                        "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                        },
+                        "request": {
+                            "auth": {
+                                "type": "bearer",
+                                "bearer": [
+                                    {
+                                        "key": "token",
+                                        "value": "{{AccessToken}}",
+                                        "type": "string"
+                                    }
+                                ]
+                            },
+                            "method": "POST",
+                            "header": [],
+                            "body": {
+                                "mode": "raw",
+                                "raw": "{\r\n    \"name\": \"Transportation\",\r\n    \"type\": \"EXPENSE\",\r\n    \"icon\": \"directions_car\"\r\n    \r\n}",
+                                "options": {
+                                    "raw": {
+                                        "language": "json"
+                                    }
+                                }
+                            },
+                            "url": {
+                                "raw": "{{BACKEND_URL}}/api/v1/category",
+                                "host": [
+                                    "{{BACKEND_URL}}"
+                                ],
+                                "path": [
+                                    "api",
+                                    "v1",
+                                    "category"
+                                ]
+                            }
+                        },
+                        "response": [],
+                        "createdAt": "2026-03-28T05:47:22.000Z",
+                        "updatedAt": "2026-04-03T13:02:12.000Z",
+                        "uid": "32420106-f3bb00c0-db45-433c-8d02-43b722f924cc"
+                    },
+                    {
+                        "name": "Save Category Medical",
+                        "id": "1b45397e-4386-4544-bd78-c0cba3c4518f",
+                        "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                        },
+                        "request": {
+                            "auth": {
+                                "type": "bearer",
+                                "bearer": [
+                                    {
+                                        "key": "token",
+                                        "value": "{{AccessToken}}",
+                                        "type": "string"
+                                    }
+                                ]
+                            },
+                            "method": "POST",
+                            "header": [],
+                            "body": {
+                                "mode": "raw",
+                                "raw": "{\r\n    \"name\": \"Hospital\",\r\n    \"type\": \"EXPENSE\",\r\n    \"icon\": \"medical_services\",\r\n    \"profile\": {\r\n        \"id\": 1\r\n    }\r\n}",
+                                "options": {
+                                    "raw": {
+                                        "language": "json"
+                                    }
+                                }
+                            },
+                            "url": {
+                                "raw": "{{BACKEND_URL}}/api/v1/category",
+                                "host": [
+                                    "{{BACKEND_URL}}"
+                                ],
+                                "path": [
+                                    "api",
+                                    "v1",
+                                    "category"
+                                ]
+                            }
+                        },
+                        "response": [],
+                        "createdAt": "2026-03-30T14:35:02.000Z",
+                        "updatedAt": "2026-03-30T14:39:18.000Z",
+                        "uid": "32420106-1b45397e-4386-4544-bd78-c0cba3c4518f"
+                    },
+                    {
+                        "name": "Save Category Grocery",
+                        "id": "c4bd6e25-c97d-4be8-9aa6-11b0474b4c58",
+                        "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                        },
+                        "request": {
+                            "auth": {
+                                "type": "bearer",
+                                "bearer": [
+                                    {
+                                        "key": "token",
+                                        "value": "{{AccessToken}}",
+                                        "type": "string"
+                                    }
+                                ]
+                            },
+                            "method": "POST",
+                            "header": [],
+                            "body": {
+                                "mode": "raw",
+                                "raw": "{\r\n    \"name\": \"Food & Groceries\",\r\n    \"type\": \"EXPENSE\",\r\n    \"icon\": \"restaurant\",\r\n    \"profile\": {\r\n        \"id\": 1\r\n    }\r\n}",
+                                "options": {
+                                    "raw": {
+                                        "language": "json"
+                                    }
+                                }
+                            },
+                            "url": {
+                                "raw": "{{BACKEND_URL}}/api/v1/category",
+                                "host": [
+                                    "{{BACKEND_URL}}"
+                                ],
+                                "path": [
+                                    "api",
+                                    "v1",
+                                    "category"
+                                ]
+                            }
+                        },
+                        "response": [],
+                        "createdAt": "2026-03-28T09:51:57.000Z",
+                        "updatedAt": "2026-03-29T05:54:27.000Z",
+                        "uid": "32420106-c4bd6e25-c97d-4be8-9aa6-11b0474b4c58"
+                    },
+                    {
+                        "name": "Save Category Salary",
+                        "id": "fdc7d2ba-2bea-4512-9f04-7c6f7ea7c6dd",
+                        "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                        },
+                        "request": {
+                            "auth": {
+                                "type": "bearer",
+                                "bearer": [
+                                    {
+                                        "key": "token",
+                                        "value": "{{AccessToken}}",
+                                        "type": "string"
+                                    }
+                                ]
+                            },
+                            "method": "POST",
+                            "header": [],
+                            "body": {
+                                "mode": "raw",
+                                "raw": "{\r\n    \"name\": \"Salary\",\r\n    \"type\": \"INCOME\",\r\n    \"icon\": \"payments\",\r\n    \"profile\": {\r\n        \"id\": 1\r\n    }\r\n}",
+                                "options": {
+                                    "raw": {
+                                        "language": "json"
+                                    }
+                                }
+                            },
+                            "url": {
+                                "raw": "{{BACKEND_URL}}/api/v1/category",
+                                "host": [
+                                    "{{BACKEND_URL}}"
+                                ],
+                                "path": [
+                                    "api",
+                                    "v1",
+                                    "category"
+                                ]
+                            }
+                        },
+                        "response": [],
+                        "createdAt": "2026-03-28T09:51:54.000Z",
+                        "updatedAt": "2026-03-29T05:54:40.000Z",
+                        "uid": "32420106-fdc7d2ba-2bea-4512-9f04-7c6f7ea7c6dd"
+                    },
+                    {
+                        "name": "Save Category Utilities",
+                        "id": "f5584821-32a8-429e-b85e-4e00bb53ef6c",
+                        "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                        },
+                        "request": {
+                            "auth": {
+                                "type": "bearer",
+                                "bearer": [
+                                    {
+                                        "key": "token",
+                                        "value": "{{AccessToken}}",
+                                        "type": "string"
+                                    }
+                                ]
+                            },
+                            "method": "POST",
+                            "header": [],
+                            "body": {
+                                "mode": "raw",
+                                "raw": "{\r\n    \"name\": \"Utilities\",\r\n    \"type\": \"EXPENSE\",\r\n    \"icon\": \"zap\",\r\n    \"profile\": { \"id\": 1 }\r\n}",
+                                "options": {
+                                    "raw": {
+                                        "language": "json"
+                                    }
+                                }
+                            },
+                            "url": {
+                                "raw": "{{BACKEND_URL}}/api/v1/category",
+                                "host": [
+                                    "{{BACKEND_URL}}"
+                                ],
+                                "path": [
+                                    "api",
+                                    "v1",
+                                    "category"
+                                ]
+                            }
+                        },
+                        "response": [],
+                        "createdAt": "2026-03-31T03:07:13.000Z",
+                        "updatedAt": "2026-03-31T03:07:39.000Z",
+                        "uid": "32420106-f5584821-32a8-429e-b85e-4e00bb53ef6c"
+                    },
+                    {
+                        "name": "Save Category Entertainment",
+                        "id": "a4940950-7b12-4e00-a6be-3209aa056d58",
+                        "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                        },
+                        "request": {
+                            "auth": {
+                                "type": "bearer",
+                                "bearer": [
+                                    {
+                                        "key": "token",
+                                        "value": "{{AccessToken}}",
+                                        "type": "string"
+                                    }
+                                ]
+                            },
+                            "method": "POST",
+                            "header": [],
+                            "body": {
+                                "mode": "raw",
+                                "raw": "{\r\n    \"name\": \"Entertainment\",\r\n    \"type\": \"EXPENSE\",\r\n    \"icon\": \"tv\",\r\n    \"profile\": { \"id\": 1 }\r\n}",
+                                "options": {
+                                    "raw": {
+                                        "language": "json"
+                                    }
+                                }
+                            },
+                            "url": {
+                                "raw": "{{BACKEND_URL}}/api/v1/category",
+                                "host": [
+                                    "{{BACKEND_URL}}"
+                                ],
+                                "path": [
+                                    "api",
+                                    "v1",
+                                    "category"
+                                ]
+                            }
+                        },
+                        "response": [],
+                        "createdAt": "2026-03-31T03:09:11.000Z",
+                        "updatedAt": "2026-03-31T03:09:31.000Z",
+                        "uid": "32420106-a4940950-7b12-4e00-a6be-3209aa056d58"
+                    },
+                    {
+                        "name": "Save Category Freelance",
+                        "id": "487623d7-3ac4-43c3-acf6-e888018ccb4b",
+                        "protocolProfileBehavior": {
+                            "disableBodyPruning": true
+                        },
+                        "request": {
+                            "auth": {
+                                "type": "bearer",
+                                "bearer": [
+                                    {
+                                        "key": "token",
+                                        "value": "{{AccessToken}}",
+                                        "type": "string"
+                                    }
+                                ]
+                            },
+                            "method": "POST",
+                            "header": [],
+                            "body": {
+                                "mode": "raw",
+                                "raw": "{\r\n    \"name\": \"Fuel\",\r\n    \"type\": \"INCOME\",\r\n    \"icon\": \"fuel\"\r\n}",
+                                "options": {
+                                    "raw": {
+                                        "language": "json"
+                                    }
+                                }
+                            },
+                            "url": {
+                                "raw": "{{BACKEND_URL}}/api/v1/category",
+                                "host": [
+                                    "{{BACKEND_URL}}"
+                                ],
+                                "path": [
+                                    "api",
+                                    "v1",
+                                    "category"
+                                ]
+                            }
+                        },
+                        "response": [],
+                        "createdAt": "2026-03-31T03:07:47.000Z",
+                        "updatedAt": "2026-03-31T04:18:35.000Z",
+                        "uid": "32420106-487623d7-3ac4-43c3-acf6-e888018ccb4b"
+                    }
+                ],
+                "id": "37c246e1-1175-40d2-b57a-6b42183405a1",
+                "createdAt": "2026-03-28T09:51:23.000Z",
+                "updatedAt": "2026-04-10T10:03:50.000Z",
+                "uid": "32420106-37c246e1-1175-40d2-b57a-6b42183405a1"
+            },
+            {
+                "name": "Get Category By Type",
+                "id": "3451ceba-9055-482f-b3fc-1506b3757b76",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{AccessToken}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "GET",
+                    "header": [],
+                    "body": {
+                        "mode": "raw",
+                        "raw": "",
+                        "options": {
+                            "raw": {
+                                "language": "json"
+                            }
+                        }
+                    },
+                    "url": {
+                        "raw": "{{BACKEND_URL}}/api/v1/category/INCOME",
+                        "host": [
+                            "{{BACKEND_URL}}"
+                        ],
+                        "path": [
+                            "api",
+                            "v1",
+                            "category",
+                            "INCOME"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2026-03-28T09:04:24.000Z",
+                "updatedAt": "2026-04-03T13:58:06.000Z",
+                "uid": "32420106-3451ceba-9055-482f-b3fc-1506b3757b76"
+            },
+            {
+                "name": "Get All Category",
+                "id": "cc52b787-5179-4f6a-a162-e6fa1f9871e6",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{AccessToken}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                        "raw": "{{8787_URL}}/api/v1/category",
+                        "host": [
+                            "{{8787_URL}}"
+                        ],
+                        "path": [
+                            "api",
+                            "v1",
+                            "category"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2026-03-28T09:03:08.000Z",
+                "updatedAt": "2026-03-30T13:40:56.000Z",
+                "uid": "32420106-cc52b787-5179-4f6a-a162-e6fa1f9871e6"
+            },
+            {
+                "name": "Update Category",
+                "id": "55d8cd8a-a81e-497a-9bd3-6a4362b57248",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{AccessToken}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "PUT",
+                    "header": [],
+                    "body": {
+                        "mode": "raw",
+                        "raw": "{\r\n    \"name\": \"Transportation\",\r\n    \"type\": \"EXPENSE\",\r\n    \"icon\": \"directions_car\"\r\n\r\n}",
+                        "options": {
+                            "raw": {
+                                "language": "json"
+                            }
+                        }
+                    },
+                    "url": {
+                        "raw": "{{BACKEND_URL}}/api/v1/category/8",
+                        "host": [
+                            "{{BACKEND_URL}}"
+                        ],
+                        "path": [
+                            "api",
+                            "v1",
+                            "category",
+                            "8"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2026-03-28T09:01:40.000Z",
+                "updatedAt": "2026-03-31T05:08:31.000Z",
+                "uid": "32420106-55d8cd8a-a81e-497a-9bd3-6a4362b57248"
+            },
+            {
+                "name": "Delete Category",
+                "id": "b756a2a3-ec37-498a-8827-7fe99f32b6b9",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{AccessToken}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "DELETE",
+                    "header": [],
+                    "body": {
+                        "mode": "raw",
+                        "raw": "",
+                        "options": {
+                            "raw": {
+                                "language": "json"
+                            }
+                        }
+                    },
+                    "url": {
+                        "raw": "{{BACKEND_URL}}/api/v1/category/82",
+                        "host": [
+                            "{{BACKEND_URL}}"
+                        ],
+                        "path": [
+                            "api",
+                            "v1",
+                            "category",
+                            "82"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2026-03-31T06:50:49.000Z",
+                "updatedAt": "2026-03-31T07:09:53.000Z",
+                "uid": "32420106-b756a2a3-ec37-498a-8827-7fe99f32b6b9"
+            }
+        ]
+    }
+}
