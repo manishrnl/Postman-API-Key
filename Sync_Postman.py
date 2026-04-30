@@ -7,8 +7,8 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
 # --- CONFIGURATION ---
-API_KEY = "PMAK-69f39960ece114000194e985-6089819acaee87b0bd687a994eb2ad0ef1"
-REPO_URL = "https://github.com/manishrnl/Postman-API-Key.git"
+API_KEY = os.getenv('API_KEY')
+REPO_URL =os.getenv('REPO_URL')
 BACKUP_DIR = "postman_backups"
 
 session = requests.Session()
