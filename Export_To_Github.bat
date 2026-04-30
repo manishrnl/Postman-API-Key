@@ -5,10 +5,10 @@ echo Starting Postman Workspace Sync to GitHub...
 echo ---------------------------------------------------
 
 :: Check if the file exists before running
-if exist Sync_Postman.py (
-    python Sync_Postman.py
+if exist Export_To_Github.py (
+    python Export_To_Github.py
 ) else (
-    echo [ERROR] Could not find Sync_Postman.py in this folder.
+    echo [ERROR] Could not find Export_To_Github.py in this folder.
     echo Current folder is: %cd%
 )
 
