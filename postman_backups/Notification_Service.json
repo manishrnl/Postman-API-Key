@@ -1,0 +1,14 @@
+{
+    "collection": {
+        "info": {
+            "_postman_id": "f826ca17-6e68-4d2d-b82b-05e960c6b3f0",
+            "name": "Notification Service",
+            "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+            "createdAt": "2026-01-30T10:17:31.000Z",
+            "updatedAt": "2026-01-30T10:17:44.000Z",
+            "lastUpdatedBy": "32420106",
+            "uid": "32420106-f826ca17-6e68-4d2d-b82b-05e960c6b3f0"
+        },
+        "item": []
+    }
+}

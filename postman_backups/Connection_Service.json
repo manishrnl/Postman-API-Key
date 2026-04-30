@@ -1,0 +1,298 @@
+{
+    "collection": {
+        "info": {
+            "_postman_id": "2cbcc339-91e4-4985-b82e-6c9d325501e5",
+            "name": "Connection Service",
+            "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+            "createdAt": "2026-01-07T05:24:10.000Z",
+            "updatedAt": "2026-01-31T14:45:17.000Z",
+            "lastUpdatedBy": "32420106",
+            "uid": "32420106-2cbcc339-91e4-4985-b82e-6c9d325501e5"
+        },
+        "item": [
+            {
+                "name": "1-D Connection",
+                "id": "f0567003-40c5-4462-9e20-b088ae9a38f9",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{Token_UserId_1}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                        "raw": "http://localhost:8080/api/v1/connections/core/deg-1",
+                        "protocol": "http",
+                        "host": [
+                            "localhost"
+                        ],
+                        "port": "8080",
+                        "path": [
+                            "api",
+                            "v1",
+                            "connections",
+                            "core",
+                            "deg-1"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2026-01-07T07:26:40.000Z",
+                "updatedAt": "2026-02-05T15:18:55.000Z",
+                "uid": "32420106-f0567003-40c5-4462-9e20-b088ae9a38f9"
+            },
+            {
+                "name": "2-D Connection",
+                "id": "71992aee-3a88-4866-8644-471b6791a5ef",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{Token_UserId_1}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                        "raw": "http://localhost:8080/api/v1/connections/core/deg-2",
+                        "protocol": "http",
+                        "host": [
+                            "localhost"
+                        ],
+                        "port": "8080",
+                        "path": [
+                            "api",
+                            "v1",
+                            "connections",
+                            "core",
+                            "deg-2"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2026-01-07T07:23:43.000Z",
+                "updatedAt": "2026-02-05T11:17:39.000Z",
+                "uid": "32420106-71992aee-3a88-4866-8644-471b6791a5ef"
+            },
+            {
+                "name": "3-D Connection",
+                "id": "aa867cc9-176a-43c9-ae82-0568490757b7",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{Token_User_Id_2}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                        "raw": "http://localhost:8080/api/v1/connections/core/deg-3",
+                        "protocol": "http",
+                        "host": [
+                            "localhost"
+                        ],
+                        "port": "8080",
+                        "path": [
+                            "api",
+                            "v1",
+                            "connections",
+                            "core",
+                            "deg-3"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2026-01-07T07:24:08.000Z",
+                "updatedAt": "2026-02-06T04:00:09.000Z",
+                "uid": "32420106-aa867cc9-176a-43c9-ae82-0568490757b7"
+            },
+            {
+                "name": "4-D Connection",
+                "id": "6306a49c-78b1-40d8-81e8-87d4c65d2366",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{Token_User_Id_2}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                        "raw": "http://localhost:8080/api/v1/connections/core/deg-4",
+                        "protocol": "http",
+                        "host": [
+                            "localhost"
+                        ],
+                        "port": "8080",
+                        "path": [
+                            "api",
+                            "v1",
+                            "connections",
+                            "core",
+                            "deg-4"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2026-01-07T07:24:06.000Z",
+                "updatedAt": "2026-02-06T04:00:22.000Z",
+                "uid": "32420106-6306a49c-78b1-40d8-81e8-87d4c65d2366"
+            },
+            {
+                "name": "Send Request Connection",
+                "id": "a476c61a-cf2d-44b6-b2c5-6f0088981504",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{Token_UserId_1}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "url": {
+                        "raw": "http://localhost:8080/api/v1/connections/core/request/4",
+                        "protocol": "http",
+                        "host": [
+                            "localhost"
+                        ],
+                        "port": "8080",
+                        "path": [
+                            "api",
+                            "v1",
+                            "connections",
+                            "core",
+                            "request",
+                            "4"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2026-01-31T14:17:45.000Z",
+                "updatedAt": "2026-02-12T15:30:18.000Z",
+                "uid": "32420106-a476c61a-cf2d-44b6-b2c5-6f0088981504"
+            },
+            {
+                "name": "Accept Connection",
+                "id": "65574f99-4a16-414d-8317-a3aa1d246eab",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{Token_User_Id_2}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "url": {
+                        "raw": "http://localhost:8080/api/v1/connections/core/accept/1",
+                        "protocol": "http",
+                        "host": [
+                            "localhost"
+                        ],
+                        "port": "8080",
+                        "path": [
+                            "api",
+                            "v1",
+                            "connections",
+                            "core",
+                            "accept",
+                            "1"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2026-01-31T14:44:54.000Z",
+                "updatedAt": "2026-02-05T13:38:59.000Z",
+                "uid": "32420106-65574f99-4a16-414d-8317-a3aa1d246eab"
+            },
+            {
+                "name": "Reject Connection",
+                "id": "bb249d78-b16a-4d49-9096-a648459d5503",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{Token_UserId_1}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "url": {
+                        "raw": "http://localhost:8080/api/v1/connections/core/reject/3",
+                        "protocol": "http",
+                        "host": [
+                            "localhost"
+                        ],
+                        "port": "8080",
+                        "path": [
+                            "api",
+                            "v1",
+                            "connections",
+                            "core",
+                            "reject",
+                            "3"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2026-01-31T14:45:17.000Z",
+                "updatedAt": "2026-02-12T15:27:40.000Z",
+                "uid": "32420106-bb249d78-b16a-4d49-9096-a648459d5503"
+            }
+        ]
+    }
+}

@@ -1,0 +1,124 @@
+{
+    "collection": {
+        "info": {
+            "_postman_id": "077026c4-60a4-47bf-8f33-be3a06929586",
+            "name": "AI Recommendations",
+            "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+            "createdAt": "2026-03-18T03:42:00.000Z",
+            "updatedAt": "2026-03-18T13:32:13.000Z",
+            "lastUpdatedBy": "32420106",
+            "uid": "32420106-077026c4-60a4-47bf-8f33-be3a06929586"
+        },
+        "item": [
+            {
+                "name": "Get Users Recommendations",
+                "id": "549b2497-8152-4d60-8abf-7c704b52ecd4",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                        "raw": "{{BASE_URL_8082}}/recommendations/users/db3725aa-c59c-4705-81fc-3de5c514bbe9",
+                        "host": [
+                            "{{BASE_URL_8082}}"
+                        ],
+                        "path": [
+                            "recommendations",
+                            "users",
+                            "db3725aa-c59c-4705-81fc-3de5c514bbe9"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2026-03-18T03:42:16.000Z",
+                "updatedAt": "2026-03-18T03:44:29.000Z",
+                "uid": "32420106-549b2497-8152-4d60-8abf-7c704b52ecd4"
+            },
+            {
+                "name": "Create AI Recommendation",
+                "id": "2ecf62e1-704d-46f9-bc7e-4b7ebf251ca1",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                        "mode": "raw",
+                        "raw": "{\r\n    \"activityId\": \"69b977e505782b7c37157e1a\",\r\n    \"userId\":\"db3725aa-c59c-4705-81fc-3de5c514bbe9\",\r\n    \"recommendation\": \"Great job! You maintained a steady pace. Consider increasing your duration by 5 minutes next session to build endurance.\",\r\n    \"improvements\": [\r\n        \"Your pace in the last 1km dropped by 15%. Work on consistent splits.\",\r\n        \"Average heart rate was slightly high for a recovery run.\"\r\n    ],\r\n    \"suggestions\": [\r\n        \"Try a 10-minute HIIT session tomorrow to boost metabolism.\",\r\n        \"Include more protein in your post-workout meal.\"\r\n    ],\r\n    \"safety\": [\r\n        \"Stay hydrated; drink at least 500ml of water now.\",\r\n        \"If you feel any pain in your left ankle, rest for 48 hours.\",\r\n        \"Ensure you do a 5-minute cooldown stretch.\"\r\n    ]\r\n}",
+                        "options": {
+                            "raw": {
+                                "language": "json"
+                            }
+                        }
+                    },
+                    "url": {
+                        "raw": "{{BASE_URL_8082}}/recommendations/create/db3725aa-c59c-4705-81fc-3de5c514bbe9",
+                        "host": [
+                            "{{BASE_URL_8082}}"
+                        ],
+                        "path": [
+                            "recommendations",
+                            "create",
+                            "db3725aa-c59c-4705-81fc-3de5c514bbe9"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2026-03-18T03:52:55.000Z",
+                "updatedAt": "2026-03-18T04:20:39.000Z",
+                "uid": "32420106-2ecf62e1-704d-46f9-bc7e-4b7ebf251ca1"
+            },
+            {
+                "name": "https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent",
+                "id": "6ef84814-d94e-4c17-84f1-bf111497dd85",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "method": "POST",
+                    "header": [
+                        {
+                            "key": "x-goog-api-key",
+                            "value": "AIzaSyDX2GWl4AdZsDAVORzKQe4qn52bo1c23GA"
+                        },
+                        {
+                            "key": "Content-Type",
+                            "value": "application/json"
+                        }
+                    ],
+                    "body": {
+                        "mode": "raw",
+                        "raw": "{\r\n    \"contents\": [\r\n      {\r\n        \"parts\": [\r\n          {\r\n            \"text\": \"Explain how AI works in a few words\"\r\n          }\r\n        ]\r\n      }\r\n    ]\r\n  }",
+                        "options": {
+                            "raw": {
+                                "language": "json"
+                            }
+                        }
+                    },
+                    "url": {
+                        "raw": "https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent",
+                        "protocol": "https",
+                        "host": [
+                            "generativelanguage",
+                            "googleapis",
+                            "com"
+                        ],
+                        "path": [
+                            "v1beta",
+                            "models",
+                            "gemini-3-flash-preview:generateContent"
+                        ]
+                    },
+                    "description": "Generated from cURL: curl \"https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent\" \\\r\n  -H \"x-goog-api-key: $GEMINI_API_KEY\" \\\r\n  -H 'Content-Type: application/json' \\\r\n  -X POST \\\r\n  -d '{\r\n    \"contents\": [\r\n      {\r\n        \"parts\": [\r\n          {\r\n            \"text\": \"Explain how AI works in a few words\"\r\n          }\r\n        ]\r\n      }\r\n    ]\r\n  }'"
+                },
+                "response": [],
+                "createdAt": "2026-03-18T13:32:13.000Z",
+                "updatedAt": "2026-03-18T13:38:54.000Z",
+                "uid": "32420106-6ef84814-d94e-4c17-84f1-bf111497dd85"
+            }
+        ]
+    }
+}

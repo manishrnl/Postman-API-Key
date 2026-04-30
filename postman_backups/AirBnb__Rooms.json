@@ -1,0 +1,300 @@
+{
+    "collection": {
+        "info": {
+            "_postman_id": "858eb0a5-64e3-425a-abaf-4eaac926ce6d",
+            "name": "AirBnb  Rooms",
+            "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+            "createdAt": "2025-10-12T12:16:49.000Z",
+            "updatedAt": "2026-03-20T10:08:44.000Z",
+            "lastUpdatedBy": "32420106",
+            "uid": "32420106-858eb0a5-64e3-425a-abaf-4eaac926ce6d"
+        },
+        "item": [
+            {
+                "name": "Create New Rooms",
+                "id": "96a02e53-a31c-414a-bf69-f259e6b928d1",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{AccessToken}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                        "mode": "raw",
+                        "raw": "{\r\n    \"basePrice\": \"899.00\",\r\n    \"capacity\": 100,\r\n    \"totalCount\": 100,\r\n    \"type\": \"Non - AC\",\r\n    \"hotelId\": 1,\r\n    \"amenities\": [\r\n        \"WiFi\",\r\n        \"Swimming Pool\",\r\n        \"Parking\"\r\n    ],\r\n    \"photos\": [\r\n        \"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.FtudhIBH-HYhxMpS4TU-sAHaE8%3Fpid%3DApi&f=1&ipt=d98f3f59017d8a2041e0f12cbf43fc4ce6a09e4fbcbe96052651f45ec4f3736a&ipo=images\"\r\n    ],\r\n    \"isActive\": true\r\n}",
+                        "options": {
+                            "raw": {
+                                "language": "json"
+                            }
+                        }
+                    },
+                    "url": {
+                        "raw": "{{BABE_URL/API/V1}}/admin/hotels/1/rooms",
+                        "host": [
+                            "{{BABE_URL/API/V1}}"
+                        ],
+                        "path": [
+                            "admin",
+                            "hotels",
+                            "1",
+                            "rooms"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2025-10-13T12:00:52.000Z",
+                "updatedAt": "2026-03-20T08:14:24.000Z",
+                "uid": "32420106-96a02e53-a31c-414a-bf69-f259e6b928d1"
+            },
+            {
+                "name": "Get All Rooms By Hotel Id",
+                "id": "d485f1ef-94b3-49a9-8d5e-1149c15769e2",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                        "raw": "{{BASE_URL/API/V1}}/admin/rooms/all/1",
+                        "host": [
+                            "{{BASE_URL/API/V1}}"
+                        ],
+                        "path": [
+                            "admin",
+                            "rooms",
+                            "all",
+                            "1"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2025-10-13T13:37:40.000Z",
+                "updatedAt": "2026-03-21T13:55:39.000Z",
+                "uid": "32420106-d485f1ef-94b3-49a9-8d5e-1149c15769e2"
+            },
+            {
+                "name": "Get All Rooms",
+                "id": "67ada001-6cc7-4448-95ed-1e13e8ac748d",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                        "raw": "{{BASE_URL/API/V1}}/rooms",
+                        "host": [
+                            "{{BASE_URL/API/V1}}"
+                        ],
+                        "path": [
+                            "rooms"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2026-03-20T08:13:04.000Z",
+                "updatedAt": "2026-03-20T08:13:38.000Z",
+                "uid": "32420106-67ada001-6cc7-4448-95ed-1e13e8ac748d"
+            },
+            {
+                "name": "Get Hotel Name",
+                "id": "b7dc1fe9-59f8-48a8-b3fc-b5705beca834",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{AccessToken}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                        "raw": "{{BASE_URL/API/V1}}/rooms/1/name",
+                        "host": [
+                            "{{BASE_URL/API/V1}}"
+                        ],
+                        "path": [
+                            "rooms",
+                            "1",
+                            "name"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2026-03-20T10:08:44.000Z",
+                "updatedAt": "2026-03-20T10:11:16.000Z",
+                "uid": "32420106-b7dc1fe9-59f8-48a8-b3fc-b5705beca834"
+            },
+            {
+                "name": "Get All Room By Hotel Id",
+                "id": "2fdec483-df2f-4438-8a66-dd72d9a1f546",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{AccessToken}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                        "raw": "{{BABE_URL/API/V1}}/admin/hotels/2/rooms/allRoomsByHotelId",
+                        "host": [
+                            "{{BABE_URL/API/V1}}"
+                        ],
+                        "path": [
+                            "admin",
+                            "hotels",
+                            "2",
+                            "rooms",
+                            "allRoomsByHotelId"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2025-10-14T03:18:06.000Z",
+                "updatedAt": "2026-03-21T14:09:06.000Z",
+                "uid": "32420106-2fdec483-df2f-4438-8a66-dd72d9a1f546"
+            },
+            {
+                "name": "Get Room By Room Id",
+                "id": "fe1763be-062c-4881-b53c-8384b27a6961",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{AccessToken}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                        "raw": "{{BABE_URL/API/V1}}/rooms/3",
+                        "host": [
+                            "{{BABE_URL/API/V1}}"
+                        ],
+                        "path": [
+                            "rooms",
+                            "3"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2026-03-20T08:44:30.000Z",
+                "updatedAt": "2026-03-21T15:26:54.000Z",
+                "uid": "32420106-fe1763be-062c-4881-b53c-8384b27a6961"
+            },
+            {
+                "name": "Delete Room By Id",
+                "id": "9a7f4603-a9e9-432c-9dd3-539a191a18c1",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "method": "DELETE",
+                    "header": [],
+                    "url": {
+                        "raw": "http://localhost:8080/api/v1/admin/rooms/19",
+                        "protocol": "http",
+                        "host": [
+                            "localhost"
+                        ],
+                        "port": "8080",
+                        "path": [
+                            "api",
+                            "v1",
+                            "admin",
+                            "rooms",
+                            "19"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2025-10-14T03:48:03.000Z",
+                "updatedAt": "2025-10-16T11:33:06.000Z",
+                "uid": "32420106-9a7f4603-a9e9-432c-9dd3-539a191a18c1"
+            },
+            {
+                "name": "Update Room By Id",
+                "id": "219be867-8570-47b9-b781-fbdc50f8593c",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{vault:AirBnb Login Token}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "PUT",
+                    "header": [],
+                    "body": {
+                        "mode": "raw",
+                        "raw": "{\r\n    \"basePrice\": \"999.00\",\r\n    \"capacity\": 100,\r\n    \"totalCount\": 100,\r\n    \"type\": \"AC\",\r\n    \"city\": \"Goa Loak\",\r\n    \"amenities\": [\r\n        \"WiFi\",\r\n        \"Swimming Pool\",\r\n        \"Parking\"\r\n    ],\r\n    \"photos\": [\r\n        \"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.FtudhIBH-HYhxMpS4TU-sAHaE8%3Fpid%3DApi&f=1&ipt=d98f3f59017d8a2041e0f12cbf43fc4ce6a09e4fbcbe96052651f45ec4f3736a&ipo=images\"\r\n    ],\r\n    \"isActive\": true\r\n}",
+                        "options": {
+                            "raw": {
+                                "language": "json"
+                            }
+                        }
+                    },
+                    "url": {
+                        "raw": "http://localhost:8080/admin/hotels/1/1/updateRooms",
+                        "protocol": "http",
+                        "host": [
+                            "localhost"
+                        ],
+                        "port": "8080",
+                        "path": [
+                            "admin",
+                            "hotels",
+                            "1",
+                            "1",
+                            "updateRooms"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2025-12-26T12:03:55.000Z",
+                "updatedAt": "2025-12-26T12:42:56.000Z",
+                "uid": "32420106-219be867-8570-47b9-b781-fbdc50f8593c"
+            }
+        ]
+    }
+}

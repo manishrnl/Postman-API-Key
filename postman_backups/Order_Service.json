@@ -1,0 +1,272 @@
+{
+    "collection": {
+        "info": {
+            "_postman_id": "458f6324-b316-4ba7-a49d-7983f9528c29",
+            "name": "Order Service",
+            "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+            "createdAt": "2026-01-05T07:24:13.000Z",
+            "updatedAt": "2026-01-25T02:33:20.000Z",
+            "lastUpdatedBy": "32420106",
+            "uid": "32420106-458f6324-b316-4ba7-a49d-7983f9528c29"
+        },
+        "item": [
+            {
+                "name": "Get All Orders",
+                "id": "6b784bcd-e717-4fee-90aa-e55d4131ffcc",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{Token}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                        "raw": "http://localhost:8080/api/v1/orders/core",
+                        "protocol": "http",
+                        "host": [
+                            "localhost"
+                        ],
+                        "port": "8080",
+                        "path": [
+                            "api",
+                            "v1",
+                            "orders",
+                            "core"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2026-01-05T08:03:37.000Z",
+                "updatedAt": "2026-02-03T11:34:48.000Z",
+                "uid": "32420106-6b784bcd-e717-4fee-90aa-e55d4131ffcc"
+            },
+            {
+                "name": "Get Orders By Id",
+                "id": "5ac0b6f9-5301-4149-bc03-55523457e704",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{Token}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                        "raw": "http://localhost:8080/api/v1/orders/core/2",
+                        "protocol": "http",
+                        "host": [
+                            "localhost"
+                        ],
+                        "port": "8080",
+                        "path": [
+                            "api",
+                            "v1",
+                            "orders",
+                            "core",
+                            "2"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2026-01-05T08:05:11.000Z",
+                "updatedAt": "2026-01-25T14:50:04.000Z",
+                "uid": "32420106-5ac0b6f9-5301-4149-bc03-55523457e704"
+            },
+            {
+                "name": "Create Order Via Api Gateway",
+                "id": "8c0e6a19-01c8-4324-bb66-fa56ef5d5764",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{Token}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                        "mode": "raw",
+                        "raw": "{\r\n    \"items\": [\r\n        {\r\n            \"productId\": 14,\r\n            \"quantity\": 2\r\n        },\r\n        {\r\n            \"productId\": 15,\r\n            \"quantity\": 2\r\n        },\r\n        {\r\n            \"productId\": 16,\r\n            \"quantity\": 2\r\n        }\r\n    ]\r\n}",
+                        "options": {
+                            "raw": {
+                                "language": "json"
+                            }
+                        }
+                    },
+                    "url": {
+                        "raw": "http://localhost:8080/api/v1/orders/core/create-order",
+                        "protocol": "http",
+                        "host": [
+                            "localhost"
+                        ],
+                        "port": "8080",
+                        "path": [
+                            "api",
+                            "v1",
+                            "orders",
+                            "core",
+                            "create-order"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2026-01-05T13:02:57.000Z",
+                "updatedAt": "2026-02-03T13:29:13.000Z",
+                "uid": "32420106-8c0e6a19-01c8-4324-bb66-fa56ef5d5764"
+            },
+            {
+                "name": "Create Order",
+                "id": "6017fcce-0019-4080-8c2f-30d30e43daa4",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{Token}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                        "mode": "raw",
+                        "raw": "{\r\n    \"items\": [\r\n        {\r\n            \"productId\": 14,\r\n            \"quantity\": 2\r\n        },\r\n        {\r\n            \"productId\": 15,\r\n            \"quantity\": 2\r\n        },\r\n        {\r\n            \"productId\": 16,\r\n            \"quantity\": 2\r\n        }\r\n    ]\r\n}",
+                        "options": {
+                            "raw": {
+                                "language": "json"
+                            }
+                        }
+                    },
+                    "url": {
+                        "raw": "http://localhost:8080/api/v1/orders/core/create-order",
+                        "protocol": "http",
+                        "host": [
+                            "localhost"
+                        ],
+                        "port": "8080",
+                        "path": [
+                            "api",
+                            "v1",
+                            "orders",
+                            "core",
+                            "create-order"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2026-01-07T09:21:07.000Z",
+                "updatedAt": "2026-01-25T02:35:05.000Z",
+                "uid": "32420106-6017fcce-0019-4080-8c2f-30d30e43daa4"
+            },
+            {
+                "name": "Hello Orders Via APi Gateway",
+                "id": "a6c2fabb-b047-450a-935e-50151ed8b23c",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{Token}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                        "raw": "http://localhost:8080/api/v1/orders/core/helloOrders",
+                        "protocol": "http",
+                        "host": [
+                            "localhost"
+                        ],
+                        "port": "8080",
+                        "path": [
+                            "api",
+                            "v1",
+                            "orders",
+                            "core",
+                            "helloOrders"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2026-01-20T06:37:28.000Z",
+                "updatedAt": "2026-01-29T05:05:43.000Z",
+                "uid": "32420106-a6c2fabb-b047-450a-935e-50151ed8b23c"
+            },
+            {
+                "name": "Refresh Config Server",
+                "id": "ac556ba3-df57-47ea-b946-7d6e7f2a4dde",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{Token}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "url": {
+                        "raw": "http://localhost:8080/api/v1/orders/actuator/refresh",
+                        "protocol": "http",
+                        "host": [
+                            "localhost"
+                        ],
+                        "port": "8080",
+                        "path": [
+                            "api",
+                            "v1",
+                            "orders",
+                            "actuator",
+                            "refresh"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2026-01-22T04:51:05.000Z",
+                "updatedAt": "2026-01-25T02:32:55.000Z",
+                "uid": "32420106-ac556ba3-df57-47ea-b946-7d6e7f2a4dde"
+            }
+        ]
+    }
+}
