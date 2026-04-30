@@ -1,0 +1,60 @@
+{
+    "collection": {
+        "info": {
+            "_postman_id": "b18364b9-9b76-40fc-9deb-a3433d07956a",
+            "name": "Filters",
+            "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+            "createdAt": "2026-03-28T15:11:56.000Z",
+            "updatedAt": "2026-03-28T15:12:19.000Z",
+            "lastUpdatedBy": "32420106",
+            "uid": "32420106-b18364b9-9b76-40fc-9deb-a3433d07956a"
+        },
+        "item": [
+            {
+                "name": "Filter Data",
+                "id": "9ee8df06-6073-4225-accd-fedaceda0ed0",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{AccessToken}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                        "mode": "raw",
+                        "raw": "{\r\n    \"type\": \"INCOME\",\r\n    \"startDate\": \"2026-03-01\",\r\n    \"endDate\": \"2026-04-30\",\r\n    \"sortField\": \"date\",\r\n    \"sortOrder\": \"DESC\",\r\n    \"keyword\": \"salary\"\r\n}\r\n",
+                        "options": {
+                            "raw": {
+                                "language": "json"
+                            }
+                        }
+                    },
+                    "url": {
+                        "raw": "{{BACKEND_URL}}/api/v1/filters",
+                        "host": [
+                            "{{BACKEND_URL}}"
+                        ],
+                        "path": [
+                            "api",
+                            "v1",
+                            "filters"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2026-03-28T15:12:19.000Z",
+                "updatedAt": "2026-04-05T08:33:04.000Z",
+                "uid": "32420106-9ee8df06-6073-4225-accd-fedaceda0ed0"
+            }
+        ]
+    }
+}

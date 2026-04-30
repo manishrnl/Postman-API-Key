@@ -1,16 +1,23 @@
 import requests
 import os
 import subprocess
+from dotenv import load_dotenv
 import json
 from datetime import datetime
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
 # --- CONFIGURATION ---
+load_dotenv() # Add this line BEFORE accessing variables
+
 API_KEY = os.getenv('API_KEY')
-REPO_URL =os.getenv('REPO_URL')
+REPO_URL = os.getenv('REPO_URL')
 BACKUP_DIR = "postman_backups"
 
+# Debugging: Check if keys are loaded
+if not API_KEY or not REPO_URL:
+    print("Error: API_KEY or REPO_URL not found in .env file!")
+    exit()
 session = requests.Session()
 retries = Retry(total=5, backoff_factor=1, status_forcelist=[502, 503, 504])
 session.mount('https://', HTTPAdapter(max_retries=retries))

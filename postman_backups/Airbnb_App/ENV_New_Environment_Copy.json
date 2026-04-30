@@ -1,0 +1,37 @@
+{
+    "environment": {
+        "id": "703a33df-113f-421f-bba8-cbb7c242c8a8",
+        "name": "New Environment Copy",
+        "owner": "32420106",
+        "createdAt": "2026-01-05T08:17:08.000Z",
+        "updatedAt": "2026-01-05T08:17:08.000Z",
+        "values": [
+            {
+                "key": "BASE_URL_8080",
+                "value": "http://localhost:8080",
+                "type": "default",
+                "enabled": true
+            },
+            {
+                "key": "BASE_URL_8081",
+                "value": "http://localhost:8081",
+                "type": "default",
+                "enabled": true
+            },
+            {
+                "key": "BASE_URL_8080_API_V1",
+                "value": "http://localhost:8080/api/v1",
+                "type": "default",
+                "enabled": true
+            },
+            {
+                "key": "BASE_URL_8081_API_V1",
+                "value": "http://localhost:8081/api/v1",
+                "type": "default",
+                "enabled": true
+            }
+        ],
+        "uid": "32420106-703a33df-113f-421f-bba8-cbb7c242c8a8",
+        "isPublic": false
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "collection": {
+        "info": {
+            "_postman_id": "fb5c0e87-71f1-4bd7-a58a-9a1d1e5aa9f6",
+            "name": "Health Check",
+            "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+            "createdAt": "2026-03-29T04:35:07.000Z",
+            "updatedAt": "2026-04-03T10:43:48.000Z",
+            "lastUpdatedBy": "32420106",
+            "uid": "32420106-fb5c0e87-71f1-4bd7-a58a-9a1d1e5aa9f6"
+        },
+        "item": [
+            {
+                "name": "Check Application Status",
+                "id": "0586d82e-2ae3-4a4d-b518-ce3599c7e92e",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "noauth"
+                    },
+                    "method": "GET",
+                    "header": [],
+                    "body": {
+                        "mode": "raw",
+                        "raw": ""
+                    },
+                    "url": {
+                        "raw": "{{8787_URL}}/api/v1/health",
+                        "host": [
+                            "{{8787_URL}}"
+                        ],
+                        "path": [
+                            "api",
+                            "v1",
+                            "health"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2026-03-29T04:35:18.000Z",
+                "updatedAt": "2026-03-29T04:37:32.000Z",
+                "uid": "32420106-0586d82e-2ae3-4a4d-b518-ce3599c7e92e"
+            }
+        ]
+    }
+}

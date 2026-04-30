@@ -1,0 +1,334 @@
+{
+    "collection": {
+        "info": {
+            "_postman_id": "0e56e8f0-8bfa-4ae9-94de-ff3ec1c08c53",
+            "name": "AirBnb Bookings",
+            "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+            "createdAt": "2025-10-21T04:21:05.000Z",
+            "updatedAt": "2025-12-22T12:04:17.000Z",
+            "lastUpdatedBy": "32420106",
+            "uid": "32420106-0e56e8f0-8bfa-4ae9-94de-ff3ec1c08c53"
+        },
+        "item": [
+            {
+                "name": "Search Hotels",
+                "id": "e0ac6a0f-b9dc-47e1-a58b-ce3e533c6f7b",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "method": "GET",
+                    "header": [],
+                    "body": {
+                        "mode": "raw",
+                        "raw": "{\r\n    \"city\": \"Madhubani\",\r\n    \"startDate\": \"2025-11-11\",\r\n    \"endDate\": \"2025-12-13\",\r\n    \"roomsCount\": 10,\r\n    \"pageNumber\": 0,\r\n    \"pageSize\":10\r\n}",
+                        "options": {
+                            "raw": {
+                                "language": "json"
+                            }
+                        }
+                    },
+                    "url": {
+                        "raw": "http://localhost:8080/api/v1/admin/hotels/search",
+                        "protocol": "http",
+                        "host": [
+                            "localhost"
+                        ],
+                        "port": "8080",
+                        "path": [
+                            "api",
+                            "v1",
+                            "admin",
+                            "hotels",
+                            "search"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2025-10-21T04:21:37.000Z",
+                "updatedAt": "2025-10-21T07:54:24.000Z",
+                "uid": "32420106-e0ac6a0f-b9dc-47e1-a58b-ce3e533c6f7b"
+            },
+            {
+                "name": "Get Hotels By Id",
+                "id": "4b25fb0a-c875-45ca-b62b-bee377ffc42f",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "method": "GET",
+                    "header": [],
+                    "url": {
+                        "raw": "http://localhost:8080/api/v1/admin/hotels/1/info",
+                        "protocol": "http",
+                        "host": [
+                            "localhost"
+                        ],
+                        "port": "8080",
+                        "path": [
+                            "api",
+                            "v1",
+                            "admin",
+                            "hotels",
+                            "1",
+                            "info"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2025-10-21T06:01:00.000Z",
+                "updatedAt": "2025-10-21T07:54:16.000Z",
+                "uid": "32420106-4b25fb0a-c875-45ca-b62b-bee377ffc42f"
+            },
+            {
+                "name": "Init Bookings",
+                "id": "186664a6-cc17-473d-97b8-bcef82e48890",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{AccessToken}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                        "mode": "raw",
+                        "raw": "{\r\n    \"hotelId\":1,\r\n    \"roomId\":2,\r\n    \"checkInDate\":\"2026-04-04\",\r\n    \"checkOutDate\": \"2026-04-04\",\r\n    \"roomsCount\": 1\r\n}",
+                        "options": {
+                            "raw": {
+                                "language": "json"
+                            }
+                        }
+                    },
+                    "url": {
+                        "raw": "{{BABE_URL/API/V1}}/bookings/init",
+                        "host": [
+                            "{{BABE_URL/API/V1}}"
+                        ],
+                        "path": [
+                            "bookings",
+                            "init"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2025-10-21T07:56:12.000Z",
+                "updatedAt": "2026-03-22T02:10:08.000Z",
+                "uid": "32420106-186664a6-cc17-473d-97b8-bcef82e48890"
+            },
+            {
+                "name": "Add Guests",
+                "id": "21592c4c-940b-477b-baee-f2ced330f8ae",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{vault:AirBnb Login Token}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                        "mode": "raw",
+                        "raw": "[\r\n    {\r\n        \"name\": \"Manish\",\r\n        \"gender\": \"MALE\",\r\n        \"age\": 23\r\n    },\r\n    {\r\n        \"name\": \"shyam\",\r\n        \"gender\": \"MALE\",\r\n        \"age\": 23\r\n    },\r\n    {\r\n        \"name\": \"Gopi\",\r\n        \"gender\": \"MALE\",\r\n        \"age\": 23\r\n    }\r\n]",
+                        "options": {
+                            "raw": {
+                                "language": "json"
+                            }
+                        }
+                    },
+                    "url": {
+                        "raw": "{{BABE_URL/API/V1}}/bookings/2/addGuests",
+                        "host": [
+                            "{{BABE_URL/API/V1}}"
+                        ],
+                        "path": [
+                            "bookings",
+                            "2",
+                            "addGuests"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2025-10-21T08:48:36.000Z",
+                "updatedAt": "2026-03-22T02:09:42.000Z",
+                "uid": "32420106-21592c4c-940b-477b-baee-f2ced330f8ae"
+            },
+            {
+                "name": "Init Payments",
+                "id": "995a591c-e456-4534-9765-7fc773214931",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{vault:AirBnb Login Token}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "url": {
+                        "raw": "http://localhost:8080/bookings/4/payments",
+                        "protocol": "http",
+                        "host": [
+                            "localhost"
+                        ],
+                        "port": "8080",
+                        "path": [
+                            "bookings",
+                            "4",
+                            "payments"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2025-12-21T08:25:58.000Z",
+                "updatedAt": "2025-12-26T13:14:37.000Z",
+                "uid": "32420106-995a591c-e456-4534-9765-7fc773214931"
+            },
+            {
+                "name": "Capture Payments",
+                "id": "cacdc044-9d90-4c3b-b0c3-166c6b23f9b5",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{vault:AirBnb Login Token}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "url": {
+                        "raw": "http://localhost:8080/webhook/payment",
+                        "protocol": "http",
+                        "host": [
+                            "localhost"
+                        ],
+                        "port": "8080",
+                        "path": [
+                            "webhook",
+                            "payment"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2025-12-21T11:20:46.000Z",
+                "updatedAt": "2025-12-21T11:22:06.000Z",
+                "uid": "32420106-cacdc044-9d90-4c3b-b0c3-166c6b23f9b5"
+            },
+            {
+                "name": "Booking Status",
+                "id": "6f0936ac-e061-4bcd-b59d-dd7b70f515d6",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{vault:AirBnb Login Token}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "body": {
+                        "mode": "raw",
+                        "raw": "{\r\n    \"hotelId\":1,\r\n    \"roomId\":1,\r\n    \"checkInDate\":\"2026-03-01\",\r\n    \"checkOutDate\": \"2026-03-03\",\r\n    \"roomsCount\": 4\r\n}",
+                        "options": {
+                            "raw": {
+                                "language": "json"
+                            }
+                        }
+                    },
+                    "url": {
+                        "raw": "http://localhost:8080/bookings/3/status",
+                        "protocol": "http",
+                        "host": [
+                            "localhost"
+                        ],
+                        "port": "8080",
+                        "path": [
+                            "bookings",
+                            "3",
+                            "status"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2025-12-22T11:42:44.000Z",
+                "updatedAt": "2025-12-26T11:45:34.000Z",
+                "uid": "32420106-6f0936ac-e061-4bcd-b59d-dd7b70f515d6"
+            },
+            {
+                "name": "Cancel Booking",
+                "id": "665d4ac5-31f1-490c-9a92-c7ad21f0383a",
+                "protocolProfileBehavior": {
+                    "disableBodyPruning": true
+                },
+                "request": {
+                    "auth": {
+                        "type": "bearer",
+                        "bearer": [
+                            {
+                                "key": "token",
+                                "value": "{{vault:AirBnb Login Token}}",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    "method": "POST",
+                    "header": [],
+                    "url": {
+                        "raw": "http://localhost:8080/bookings/2/cancel",
+                        "protocol": "http",
+                        "host": [
+                            "localhost"
+                        ],
+                        "port": "8080",
+                        "path": [
+                            "bookings",
+                            "2",
+                            "cancel"
+                        ]
+                    }
+                },
+                "response": [],
+                "createdAt": "2025-12-22T12:04:17.000Z",
+                "updatedAt": "2025-12-26T11:40:28.000Z",
+                "uid": "32420106-665d4ac5-31f1-490c-9a92-c7ad21f0383a"
+            }
+        ]
+    }
+}
