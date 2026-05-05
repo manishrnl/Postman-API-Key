@@ -1,18 +1,18 @@
 {
     "collection": {
         "info": {
-            "_postman_id": "47b1c681-e385-4e8e-be21-2dbf672f6dc4",
+            "_postman_id": "4f34641a-a98c-4190-b85b-510241bdd848",
             "name": "Inventory Service",
             "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-            "createdAt": "2026-01-05T07:23:48.000Z",
-            "updatedAt": "2026-01-05T08:03:12.000Z",
-            "lastUpdatedBy": "32420106",
-            "uid": "32420106-47b1c681-e385-4e8e-be21-2dbf672f6dc4"
+            "createdAt": "2026-05-01T06:38:37.000Z",
+            "updatedAt": "2026-05-01T06:38:37.000Z",
+            "lastUpdatedBy": "54443657",
+            "uid": "54443657-4f34641a-a98c-4190-b85b-510241bdd848"
         },
         "item": [
             {
                 "name": "Get All Products via Api Gateway",
-                "id": "b594834f-cbbd-4510-a783-428ad6de22e0",
+                "id": "9e126a36-48e7-4a24-8cd7-fc6a46579947",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -45,13 +45,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2026-01-05T07:24:42.000Z",
-                "updatedAt": "2026-01-25T02:35:34.000Z",
-                "uid": "32420106-b594834f-cbbd-4510-a783-428ad6de22e0"
+                "createdAt": "2026-05-01T06:38:37.000Z",
+                "updatedAt": "2026-05-01T06:38:37.000Z",
+                "uid": "54443657-9e126a36-48e7-4a24-8cd7-fc6a46579947"
             },
             {
                 "name": "Get Product By Id",
-                "id": "84cc2ce9-170d-4ac4-b4a6-02e5b313f19a",
+                "id": "f4b32c24-6ab3-471f-8245-e43bfac8fe14",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -85,9 +85,9 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2026-01-05T08:03:12.000Z",
-                "updatedAt": "2026-01-25T02:36:11.000Z",
-                "uid": "32420106-84cc2ce9-170d-4ac4-b4a6-02e5b313f19a"
+                "createdAt": "2026-05-01T06:38:37.000Z",
+                "updatedAt": "2026-05-01T06:38:37.000Z",
+                "uid": "54443657-f4b32c24-6ab3-471f-8245-e43bfac8fe14"
             }
         ]
     }

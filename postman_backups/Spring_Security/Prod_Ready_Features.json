@@ -1,18 +1,18 @@
 {
     "collection": {
         "info": {
-            "_postman_id": "3aa2e566-9b9b-40ce-9f58-e3d9da0e81fc",
+            "_postman_id": "26b6dd4a-7515-4a95-bae2-276135e76117",
             "name": "Prod Ready Features",
             "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-            "createdAt": "2025-10-14T13:44:06.000Z",
-            "updatedAt": "2026-01-04T05:15:40.000Z",
-            "lastUpdatedBy": "32420106",
-            "uid": "32420106-3aa2e566-9b9b-40ce-9f58-e3d9da0e81fc"
+            "createdAt": "2026-05-01T06:38:44.000Z",
+            "updatedAt": "2026-05-01T06:38:44.000Z",
+            "lastUpdatedBy": "54443657",
+            "uid": "54443657-26b6dd4a-7515-4a95-bae2-276135e76117"
         },
         "item": [
             {
                 "name": "Get  Posts By Id",
-                "id": "4c0695d5-4463-40fc-804c-24177d0692bd",
+                "id": "873e4fb2-3316-4820-9784-2282fedfe8de",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -52,13 +52,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2025-10-14T14:30:04.000Z",
-                "updatedAt": "2025-11-15T11:42:36.000Z",
-                "uid": "32420106-4c0695d5-4463-40fc-804c-24177d0692bd"
+                "createdAt": "2026-05-01T06:38:44.000Z",
+                "updatedAt": "2026-05-01T06:38:44.000Z",
+                "uid": "54443657-873e4fb2-3316-4820-9784-2282fedfe8de"
             },
             {
                 "name": "Get  All Posts",
-                "id": "685a80fd-8618-49e9-af62-24ca8d26ed3b",
+                "id": "c03745d2-75f0-4940-ae27-8add2c3109a3",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -99,13 +99,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2025-11-07T12:52:46.000Z",
-                "updatedAt": "2025-11-08T12:57:46.000Z",
-                "uid": "32420106-685a80fd-8618-49e9-af62-24ca8d26ed3b"
+                "createdAt": "2026-05-01T06:38:44.000Z",
+                "updatedAt": "2026-05-01T06:38:44.000Z",
+                "uid": "54443657-c03745d2-75f0-4940-ae27-8add2c3109a3"
             },
             {
                 "name": "Create Posts",
-                "id": "bb54e8f3-bff0-4020-baa7-e5c7c594de50",
+                "id": "18b99551-089b-4ace-9844-aea550ef98b6",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -146,13 +146,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2025-11-07T13:24:39.000Z",
-                "updatedAt": "2025-11-08T12:57:34.000Z",
-                "uid": "32420106-bb54e8f3-bff0-4020-baa7-e5c7c594de50"
+                "createdAt": "2026-05-01T06:38:44.000Z",
+                "updatedAt": "2026-05-01T06:38:44.000Z",
+                "uid": "54443657-18b99551-089b-4ace-9844-aea550ef98b6"
             },
             {
                 "name": "Update Posts",
-                "id": "142bae2a-9c51-4d18-a73f-c95d94582f6f",
+                "id": "ac9c72ed-5d3d-4d29-9a21-7e1e5b0349bf",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -194,9 +194,9 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2025-11-08T11:51:00.000Z",
-                "updatedAt": "2025-11-08T12:58:36.000Z",
-                "uid": "32420106-142bae2a-9c51-4d18-a73f-c95d94582f6f"
+                "createdAt": "2026-05-01T06:38:44.000Z",
+                "updatedAt": "2026-05-01T06:38:44.000Z",
+                "uid": "54443657-ac9c72ed-5d3d-4d29-9a21-7e1e5b0349bf"
             }
         ]
     }

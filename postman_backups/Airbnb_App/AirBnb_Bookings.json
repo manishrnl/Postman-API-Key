@@ -1,18 +1,18 @@
 {
     "collection": {
         "info": {
-            "_postman_id": "0e56e8f0-8bfa-4ae9-94de-ff3ec1c08c53",
+            "_postman_id": "a976539f-548b-445c-a62b-ce291e7e926b",
             "name": "AirBnb Bookings",
             "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-            "createdAt": "2025-10-21T04:21:05.000Z",
-            "updatedAt": "2025-12-22T12:04:17.000Z",
-            "lastUpdatedBy": "32420106",
-            "uid": "32420106-0e56e8f0-8bfa-4ae9-94de-ff3ec1c08c53"
+            "createdAt": "2026-05-01T06:38:38.000Z",
+            "updatedAt": "2026-05-01T06:38:38.000Z",
+            "lastUpdatedBy": "54443657",
+            "uid": "54443657-a976539f-548b-445c-a62b-ce291e7e926b"
         },
         "item": [
             {
                 "name": "Search Hotels",
-                "id": "e0ac6a0f-b9dc-47e1-a58b-ce3e533c6f7b",
+                "id": "c39f510d-bc53-4db6-993d-91ad3c8aca31",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -45,13 +45,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2025-10-21T04:21:37.000Z",
-                "updatedAt": "2025-10-21T07:54:24.000Z",
-                "uid": "32420106-e0ac6a0f-b9dc-47e1-a58b-ce3e533c6f7b"
+                "createdAt": "2026-05-01T06:38:38.000Z",
+                "updatedAt": "2026-05-01T06:38:38.000Z",
+                "uid": "54443657-c39f510d-bc53-4db6-993d-91ad3c8aca31"
             },
             {
                 "name": "Get Hotels By Id",
-                "id": "4b25fb0a-c875-45ca-b62b-bee377ffc42f",
+                "id": "bc4c5f1e-cd25-43d4-a99a-ba94e455328c",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -76,13 +76,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2025-10-21T06:01:00.000Z",
-                "updatedAt": "2025-10-21T07:54:16.000Z",
-                "uid": "32420106-4b25fb0a-c875-45ca-b62b-bee377ffc42f"
+                "createdAt": "2026-05-01T06:38:38.000Z",
+                "updatedAt": "2026-05-01T06:38:38.000Z",
+                "uid": "54443657-bc4c5f1e-cd25-43d4-a99a-ba94e455328c"
             },
             {
                 "name": "Init Bookings",
-                "id": "186664a6-cc17-473d-97b8-bcef82e48890",
+                "id": "bfa84d58-5226-4460-99c5-3300b8688c62",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -120,13 +120,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2025-10-21T07:56:12.000Z",
-                "updatedAt": "2026-03-22T02:10:08.000Z",
-                "uid": "32420106-186664a6-cc17-473d-97b8-bcef82e48890"
+                "createdAt": "2026-05-01T06:38:38.000Z",
+                "updatedAt": "2026-05-01T06:38:38.000Z",
+                "uid": "54443657-bfa84d58-5226-4460-99c5-3300b8688c62"
             },
             {
                 "name": "Add Guests",
-                "id": "21592c4c-940b-477b-baee-f2ced330f8ae",
+                "id": "8eb0615f-092f-4efd-8df1-b6fc5f47ca0e",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -165,13 +165,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2025-10-21T08:48:36.000Z",
-                "updatedAt": "2026-03-22T02:09:42.000Z",
-                "uid": "32420106-21592c4c-940b-477b-baee-f2ced330f8ae"
+                "createdAt": "2026-05-01T06:38:38.000Z",
+                "updatedAt": "2026-05-01T06:38:38.000Z",
+                "uid": "54443657-8eb0615f-092f-4efd-8df1-b6fc5f47ca0e"
             },
             {
                 "name": "Init Payments",
-                "id": "995a591c-e456-4534-9765-7fc773214931",
+                "id": "32663355-2587-49cd-ba86-e58e5f674072",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -203,13 +203,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2025-12-21T08:25:58.000Z",
-                "updatedAt": "2025-12-26T13:14:37.000Z",
-                "uid": "32420106-995a591c-e456-4534-9765-7fc773214931"
+                "createdAt": "2026-05-01T06:38:38.000Z",
+                "updatedAt": "2026-05-01T06:38:38.000Z",
+                "uid": "54443657-32663355-2587-49cd-ba86-e58e5f674072"
             },
             {
                 "name": "Capture Payments",
-                "id": "cacdc044-9d90-4c3b-b0c3-166c6b23f9b5",
+                "id": "a0f1213b-dc6e-4e71-b82a-c29b1049b5a4",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -240,13 +240,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2025-12-21T11:20:46.000Z",
-                "updatedAt": "2025-12-21T11:22:06.000Z",
-                "uid": "32420106-cacdc044-9d90-4c3b-b0c3-166c6b23f9b5"
+                "createdAt": "2026-05-01T06:38:38.000Z",
+                "updatedAt": "2026-05-01T06:38:38.000Z",
+                "uid": "54443657-a0f1213b-dc6e-4e71-b82a-c29b1049b5a4"
             },
             {
                 "name": "Booking Status",
-                "id": "6f0936ac-e061-4bcd-b59d-dd7b70f515d6",
+                "id": "1391f889-38ce-4ac7-9d8b-6d4d0d2a5632",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -287,13 +287,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2025-12-22T11:42:44.000Z",
-                "updatedAt": "2025-12-26T11:45:34.000Z",
-                "uid": "32420106-6f0936ac-e061-4bcd-b59d-dd7b70f515d6"
+                "createdAt": "2026-05-01T06:38:38.000Z",
+                "updatedAt": "2026-05-01T06:38:38.000Z",
+                "uid": "54443657-1391f889-38ce-4ac7-9d8b-6d4d0d2a5632"
             },
             {
                 "name": "Cancel Booking",
-                "id": "665d4ac5-31f1-490c-9a92-c7ad21f0383a",
+                "id": "1769df44-52cd-449e-a46c-22e8d9c7b098",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -325,9 +325,9 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2025-12-22T12:04:17.000Z",
-                "updatedAt": "2025-12-26T11:40:28.000Z",
-                "uid": "32420106-665d4ac5-31f1-490c-9a92-c7ad21f0383a"
+                "createdAt": "2026-05-01T06:38:38.000Z",
+                "updatedAt": "2026-05-01T06:38:38.000Z",
+                "uid": "54443657-1769df44-52cd-449e-a46c-22e8d9c7b098"
             }
         ]
     }

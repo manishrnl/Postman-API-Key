@@ -1,18 +1,18 @@
 {
     "collection": {
         "info": {
-            "_postman_id": "077026c4-60a4-47bf-8f33-be3a06929586",
+            "_postman_id": "c85cea03-6581-46d1-a000-b48e88d6bd67",
             "name": "AI Recommendations",
             "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-            "createdAt": "2026-03-18T03:42:00.000Z",
-            "updatedAt": "2026-03-18T13:32:13.000Z",
-            "lastUpdatedBy": "32420106",
-            "uid": "32420106-077026c4-60a4-47bf-8f33-be3a06929586"
+            "createdAt": "2026-05-01T06:38:41.000Z",
+            "updatedAt": "2026-05-01T06:38:41.000Z",
+            "lastUpdatedBy": "54443657",
+            "uid": "54443657-c85cea03-6581-46d1-a000-b48e88d6bd67"
         },
         "item": [
             {
                 "name": "Get Users Recommendations",
-                "id": "549b2497-8152-4d60-8abf-7c704b52ecd4",
+                "id": "5bc55635-4231-4591-8b6e-8593d54aa98f",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -32,13 +32,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2026-03-18T03:42:16.000Z",
-                "updatedAt": "2026-03-18T03:44:29.000Z",
-                "uid": "32420106-549b2497-8152-4d60-8abf-7c704b52ecd4"
+                "createdAt": "2026-05-01T06:38:41.000Z",
+                "updatedAt": "2026-05-01T06:38:41.000Z",
+                "uid": "54443657-5bc55635-4231-4591-8b6e-8593d54aa98f"
             },
             {
                 "name": "Create AI Recommendation",
-                "id": "2ecf62e1-704d-46f9-bc7e-4b7ebf251ca1",
+                "id": "ed5f6c4f-010b-4b82-837f-eb16c023d37f",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -67,13 +67,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2026-03-18T03:52:55.000Z",
-                "updatedAt": "2026-03-18T04:20:39.000Z",
-                "uid": "32420106-2ecf62e1-704d-46f9-bc7e-4b7ebf251ca1"
+                "createdAt": "2026-05-01T06:38:41.000Z",
+                "updatedAt": "2026-05-01T06:38:41.000Z",
+                "uid": "54443657-ed5f6c4f-010b-4b82-837f-eb16c023d37f"
             },
             {
                 "name": "https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent",
-                "id": "6ef84814-d94e-4c17-84f1-bf111497dd85",
+                "id": "7906e5e4-ddd0-4f72-aa47-da83a66437d4",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -115,9 +115,9 @@
                     "description": "Generated from cURL: curl \"https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent\" \\\r\n  -H \"x-goog-api-key: $GEMINI_API_KEY\" \\\r\n  -H 'Content-Type: application/json' \\\r\n  -X POST \\\r\n  -d '{\r\n    \"contents\": [\r\n      {\r\n        \"parts\": [\r\n          {\r\n            \"text\": \"Explain how AI works in a few words\"\r\n          }\r\n        ]\r\n      }\r\n    ]\r\n  }'"
                 },
                 "response": [],
-                "createdAt": "2026-03-18T13:32:13.000Z",
-                "updatedAt": "2026-03-18T13:38:54.000Z",
-                "uid": "32420106-6ef84814-d94e-4c17-84f1-bf111497dd85"
+                "createdAt": "2026-05-01T06:38:41.000Z",
+                "updatedAt": "2026-05-01T06:38:41.000Z",
+                "uid": "54443657-7906e5e4-ddd0-4f72-aa47-da83a66437d4"
             }
         ]
     }

@@ -1,18 +1,18 @@
 {
     "collection": {
         "info": {
-            "_postman_id": "1491b279-0d44-4c3f-a040-a6365e750914",
+            "_postman_id": "72da4d8a-6eb0-4d7e-8569-298bddc213f8",
             "name": "AirBnb Hotels",
             "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-            "createdAt": "2024-02-15T13:22:21.000Z",
-            "updatedAt": "2026-03-21T04:44:44.000Z",
-            "lastUpdatedBy": "32420106",
-            "uid": "32420106-1491b279-0d44-4c3f-a040-a6365e750914"
+            "createdAt": "2026-05-01T06:38:37.000Z",
+            "updatedAt": "2026-05-01T06:38:38.000Z",
+            "lastUpdatedBy": "54443657",
+            "uid": "54443657-72da4d8a-6eb0-4d7e-8569-298bddc213f8"
         },
         "item": [
             {
                 "name": "Add Hotel",
-                "id": "18e08ff3-3335-44f9-8598-feafc8da8e74",
+                "id": "684be546-6355-46d0-a81c-dac2091229a0",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -50,13 +50,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2025-10-12T12:18:14.000Z",
-                "updatedAt": "2026-03-20T08:00:23.000Z",
-                "uid": "32420106-18e08ff3-3335-44f9-8598-feafc8da8e74"
+                "createdAt": "2026-05-01T06:38:38.000Z",
+                "updatedAt": "2026-05-01T06:38:38.000Z",
+                "uid": "54443657-684be546-6355-46d0-a81c-dac2091229a0"
             },
             {
                 "name": "Get Hotel By Id",
-                "id": "0f6fb22b-83fb-424c-b6ba-4ddc5f3e46ab",
+                "id": "6771b2cc-8aa1-4119-bc12-f424db292aa9",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -86,13 +86,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2025-10-12T12:18:33.000Z",
-                "updatedAt": "2026-03-20T08:03:02.000Z",
-                "uid": "32420106-0f6fb22b-83fb-424c-b6ba-4ddc5f3e46ab"
+                "createdAt": "2026-05-01T06:38:38.000Z",
+                "updatedAt": "2026-05-01T06:38:38.000Z",
+                "uid": "54443657-6771b2cc-8aa1-4119-bc12-f424db292aa9"
             },
             {
                 "name": "Get all Hotels Of Current Users",
-                "id": "ac0faedc-d0eb-4407-9f7a-680259aebca0",
+                "id": "37ecf7fd-5450-4d03-9af1-20ecb613e9a8",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -122,13 +122,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2025-10-12T12:35:52.000Z",
-                "updatedAt": "2026-03-21T04:44:38.000Z",
-                "uid": "32420106-ac0faedc-d0eb-4407-9f7a-680259aebca0"
+                "createdAt": "2026-05-01T06:38:38.000Z",
+                "updatedAt": "2026-05-01T06:38:38.000Z",
+                "uid": "54443657-37ecf7fd-5450-4d03-9af1-20ecb613e9a8"
             },
             {
                 "name": "Get all Hotels",
-                "id": "fb1977bb-ec43-422d-91cd-e16f41219e83",
+                "id": "0e303cb1-cf8d-48fb-a57a-0b3706e07cef",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -158,13 +158,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2026-03-21T04:44:44.000Z",
-                "updatedAt": "2026-03-21T04:45:06.000Z",
-                "uid": "32420106-fb1977bb-ec43-422d-91cd-e16f41219e83"
+                "createdAt": "2026-05-01T06:38:38.000Z",
+                "updatedAt": "2026-05-01T06:38:38.000Z",
+                "uid": "54443657-0e303cb1-cf8d-48fb-a57a-0b3706e07cef"
             },
             {
                 "name": "Delete By Id",
-                "id": "f2a06da5-2a8b-44c0-a641-96f9c0bb409b",
+                "id": "9d78727e-9323-43dc-bfe0-4feb5638288b",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -200,13 +200,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2025-10-13T05:10:26.000Z",
-                "updatedAt": "2025-12-26T12:08:23.000Z",
-                "uid": "32420106-f2a06da5-2a8b-44c0-a641-96f9c0bb409b"
+                "createdAt": "2026-05-01T06:38:38.000Z",
+                "updatedAt": "2026-05-01T06:38:38.000Z",
+                "uid": "54443657-9d78727e-9323-43dc-bfe0-4feb5638288b"
             },
             {
                 "name": "Update By Id",
-                "id": "4cf88aaa-726e-4ab0-abe9-ccf327a3c618",
+                "id": "4ce59923-9ab8-4d31-8c89-88002a8d70de",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -239,13 +239,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2025-10-13T03:28:32.000Z",
-                "updatedAt": "2025-10-16T11:34:14.000Z",
-                "uid": "32420106-4cf88aaa-726e-4ab0-abe9-ccf327a3c618"
+                "createdAt": "2026-05-01T06:38:38.000Z",
+                "updatedAt": "2026-05-01T06:38:38.000Z",
+                "uid": "54443657-4ce59923-9ab8-4d31-8c89-88002a8d70de"
             },
             {
                 "name": "Activate Hotel",
-                "id": "df60f9fd-f1d3-4f06-9136-62e1d2e8f046",
+                "id": "9a3e2883-78be-4194-ab95-685d9bea3bfe",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -276,13 +276,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2025-10-13T07:56:03.000Z",
-                "updatedAt": "2026-03-22T01:59:10.000Z",
-                "uid": "32420106-df60f9fd-f1d3-4f06-9136-62e1d2e8f046"
+                "createdAt": "2026-05-01T06:38:38.000Z",
+                "updatedAt": "2026-05-01T06:38:38.000Z",
+                "uid": "54443657-9a3e2883-78be-4194-ab95-685d9bea3bfe"
             },
             {
                 "name": "Get Bookings By Id",
-                "id": "2a25aa2d-e74e-4515-8c18-b8e3a6706ae2",
+                "id": "42fa2655-1cfd-4d37-ba10-8213939c02af",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -319,13 +319,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2025-12-26T11:46:57.000Z",
-                "updatedAt": "2025-12-26T11:50:14.000Z",
-                "uid": "32420106-2a25aa2d-e74e-4515-8c18-b8e3a6706ae2"
+                "createdAt": "2026-05-01T06:38:38.000Z",
+                "updatedAt": "2026-05-01T06:38:38.000Z",
+                "uid": "54443657-42fa2655-1cfd-4d37-ba10-8213939c02af"
             },
             {
                 "name": "Generate Hotel Reports",
-                "id": "f84d8c39-d233-4f2b-81ff-e95f24b2f90b",
+                "id": "707bad46-2ef6-48bf-8284-1c998edf4352",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -367,13 +367,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2025-12-26T11:50:39.000Z",
-                "updatedAt": "2025-12-26T11:53:08.000Z",
-                "uid": "32420106-f84d8c39-d233-4f2b-81ff-e95f24b2f90b"
+                "createdAt": "2026-05-01T06:38:38.000Z",
+                "updatedAt": "2026-05-01T06:38:38.000Z",
+                "uid": "54443657-707bad46-2ef6-48bf-8284-1c998edf4352"
             },
             {
                 "name": "Update Hotel By Id",
-                "id": "e71ccb5b-57ad-46e7-be19-08f678fd6c6b",
+                "id": "36c8a02c-8369-4e4c-8460-698a02b79cb1",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -413,9 +413,9 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2025-12-26T11:55:21.000Z",
-                "updatedAt": "2026-03-20T08:04:11.000Z",
-                "uid": "32420106-e71ccb5b-57ad-46e7-be19-08f678fd6c6b"
+                "createdAt": "2026-05-01T06:38:38.000Z",
+                "updatedAt": "2026-05-01T06:38:38.000Z",
+                "uid": "54443657-36c8a02c-8369-4e4c-8460-698a02b79cb1"
             }
         ]
     }

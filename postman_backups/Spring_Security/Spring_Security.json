@@ -1,18 +1,18 @@
 {
     "collection": {
         "info": {
-            "_postman_id": "ec2dfeab-1675-4869-888c-404afd02ea22",
+            "_postman_id": "dd29cedf-d6bb-4f21-9402-ad7a998657c4",
             "name": "Spring Security",
             "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-            "createdAt": "2025-11-06T11:07:15.000Z",
-            "updatedAt": "2026-03-27T15:12:41.000Z",
-            "lastUpdatedBy": "32420106",
-            "uid": "32420106-ec2dfeab-1675-4869-888c-404afd02ea22"
+            "createdAt": "2026-05-01T06:38:44.000Z",
+            "updatedAt": "2026-05-01T06:38:44.000Z",
+            "lastUpdatedBy": "54443657",
+            "uid": "54443657-dd29cedf-d6bb-4f21-9402-ad7a998657c4"
         },
         "item": [
             {
                 "name": "Get All Posts",
-                "id": "72083e3e-3bc3-498a-a96a-7b38fde326f8",
+                "id": "8f64e0f0-9376-4192-b538-97b15cd79a59",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -32,13 +32,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2025-11-06T11:07:33.000Z",
-                "updatedAt": "2025-11-15T05:41:59.000Z",
-                "uid": "32420106-72083e3e-3bc3-498a-a96a-7b38fde326f8"
+                "createdAt": "2026-05-01T06:38:44.000Z",
+                "updatedAt": "2026-05-01T06:38:44.000Z",
+                "uid": "54443657-8f64e0f0-9376-4192-b538-97b15cd79a59"
             },
             {
                 "name": "Signup",
-                "id": "738a00fd-aa33-4707-b7aa-c2310c10a898",
+                "id": "dddc5ccf-0872-489c-881c-9c1a70fec7b5",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -68,13 +68,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2026-03-27T15:10:50.000Z",
-                "updatedAt": "2026-03-27T15:12:34.000Z",
-                "uid": "32420106-738a00fd-aa33-4707-b7aa-c2310c10a898"
+                "createdAt": "2026-05-01T06:38:44.000Z",
+                "updatedAt": "2026-05-01T06:38:44.000Z",
+                "uid": "54443657-dddc5ccf-0872-489c-881c-9c1a70fec7b5"
             },
             {
                 "name": "Login",
-                "id": "2cf739b2-ddeb-42f4-bcc0-9bae26dfc1ab",
+                "id": "d19df7e2-0088-45fb-8b86-6674618ee4fe",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -104,9 +104,9 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2026-03-27T15:12:41.000Z",
-                "updatedAt": "2026-03-27T15:13:09.000Z",
-                "uid": "32420106-2cf739b2-ddeb-42f4-bcc0-9bae26dfc1ab"
+                "createdAt": "2026-05-01T06:38:44.000Z",
+                "updatedAt": "2026-05-01T06:38:44.000Z",
+                "uid": "54443657-d19df7e2-0088-45fb-8b86-6674618ee4fe"
             }
         ]
     }

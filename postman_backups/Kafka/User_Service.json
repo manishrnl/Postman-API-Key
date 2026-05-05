@@ -1,18 +1,18 @@
 {
     "collection": {
         "info": {
-            "_postman_id": "fff5b219-15c4-4058-bd09-ff4bcabbdc09",
+            "_postman_id": "655817d7-4cbf-4c41-a446-d3fcdb840da6",
             "name": "User Service",
             "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-            "createdAt": "2026-01-30T10:07:45.000Z",
-            "updatedAt": "2026-01-30T13:04:42.000Z",
-            "lastUpdatedBy": "32420106",
-            "uid": "32420106-fff5b219-15c4-4058-bd09-ff4bcabbdc09"
+            "createdAt": "2026-05-01T06:38:41.000Z",
+            "updatedAt": "2026-05-01T06:38:41.000Z",
+            "lastUpdatedBy": "54443657",
+            "uid": "54443657-655817d7-4cbf-4c41-a446-d3fcdb840da6"
         },
         "item": [
             {
                 "name": "Send Message",
-                "id": "eefcd91f-15b7-4619-bf49-74b18d79b947",
+                "id": "dffa46d2-8ada-43de-ac07-2b03b996f63d",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -33,13 +33,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2026-01-30T10:07:53.000Z",
-                "updatedAt": "2026-01-30T11:54:16.000Z",
-                "uid": "32420106-eefcd91f-15b7-4619-bf49-74b18d79b947"
+                "createdAt": "2026-05-01T06:38:41.000Z",
+                "updatedAt": "2026-05-01T06:38:41.000Z",
+                "uid": "54443657-dffa46d2-8ada-43de-ac07-2b03b996f63d"
             },
             {
                 "name": "Create User",
-                "id": "bbb8f928-6337-4518-90d0-83a619aeca6e",
+                "id": "e1b3b6cb-1162-498e-8f8e-be8885415ff7",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -68,9 +68,9 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2026-01-30T13:04:42.000Z",
-                "updatedAt": "2026-01-31T07:11:39.000Z",
-                "uid": "32420106-bbb8f928-6337-4518-90d0-83a619aeca6e"
+                "createdAt": "2026-05-01T06:38:41.000Z",
+                "updatedAt": "2026-05-01T06:38:41.000Z",
+                "uid": "54443657-e1b3b6cb-1162-498e-8f8e-be8885415ff7"
             }
         ]
     }

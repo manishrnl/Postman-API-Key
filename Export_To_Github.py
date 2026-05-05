@@ -68,9 +68,6 @@ def sync():
                     json.dump(e_data, f, indent=4)
 
         # 3. Pushing to GitHub
-        # Formatting to: Month Day, Year Hour:Minute
-        # %b = Abbreviated month, %d = day, %y = 2-digit year, %H:%M = 24hr time
-        # 3. Pushing to GitHub
         # %b = Month (May), %d = Day (01), %y = Year (26), %H:%M = Time (18:30)
         timestamp = datetime.now().strftime("%b %d, %y %H:%M") 
         print(f"\nStep 2: Pushing to GitHub with timestamp {timestamp}...")

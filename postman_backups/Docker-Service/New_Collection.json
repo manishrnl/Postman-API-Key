@@ -1,18 +1,18 @@
 {
     "collection": {
         "info": {
-            "_postman_id": "a9c6d137-de25-44c3-85d4-a04f6e620e70",
+            "_postman_id": "ad5eadf2-1f85-4ae7-a48e-e4568156274c",
             "name": "New Collection",
             "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-            "createdAt": "2026-02-03T08:43:18.000Z",
-            "updatedAt": "2026-02-03T08:59:18.000Z",
-            "lastUpdatedBy": "32420106",
-            "uid": "32420106-a9c6d137-de25-44c3-85d4-a04f6e620e70"
+            "createdAt": "2026-05-01T06:38:37.000Z",
+            "updatedAt": "2026-05-01T06:38:37.000Z",
+            "lastUpdatedBy": "54443657",
+            "uid": "54443657-ad5eadf2-1f85-4ae7-a48e-e4568156274c"
         },
         "item": [
             {
                 "name": "Create Posts",
-                "id": "02057dcc-921b-4854-8f0f-d26defa2ad5b",
+                "id": "0f0d1f31-ca5f-466c-ad73-2038b3b4de17",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -41,13 +41,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2026-02-03T08:43:21.000Z",
-                "updatedAt": "2026-02-03T08:59:28.000Z",
-                "uid": "32420106-02057dcc-921b-4854-8f0f-d26defa2ad5b"
+                "createdAt": "2026-05-01T06:38:37.000Z",
+                "updatedAt": "2026-05-01T06:38:37.000Z",
+                "uid": "54443657-0f0d1f31-ca5f-466c-ad73-2038b3b4de17"
             },
             {
                 "name": "Get Posts by Id",
-                "id": "15723f4e-f20b-4dd3-8598-93cf7d7d8ee0",
+                "id": "0bca3ab5-c725-4b56-9008-bdbc141eecee",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -77,9 +77,9 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2026-02-03T08:59:18.000Z",
-                "updatedAt": "2026-02-03T09:16:52.000Z",
-                "uid": "32420106-15723f4e-f20b-4dd3-8598-93cf7d7d8ee0"
+                "createdAt": "2026-05-01T06:38:37.000Z",
+                "updatedAt": "2026-05-01T06:38:37.000Z",
+                "uid": "54443657-0bca3ab5-c725-4b56-9008-bdbc141eecee"
             }
         ]
     }

@@ -1,18 +1,18 @@
 {
     "collection": {
         "info": {
-            "_postman_id": "e74cea56-f982-4b21-a1ec-e87a1f2d4e20",
+            "_postman_id": "253a1e4a-ec58-49ae-958f-003e6adb38b4",
             "name": "AirBnb Inventory",
             "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-            "createdAt": "2025-12-26T12:34:04.000Z",
-            "updatedAt": "2025-12-26T12:52:43.000Z",
-            "lastUpdatedBy": "32420106",
-            "uid": "32420106-e74cea56-f982-4b21-a1ec-e87a1f2d4e20"
+            "createdAt": "2026-05-01T06:38:39.000Z",
+            "updatedAt": "2026-05-01T06:38:39.000Z",
+            "lastUpdatedBy": "54443657",
+            "uid": "54443657-253a1e4a-ec58-49ae-958f-003e6adb38b4"
         },
         "item": [
             {
                 "name": "Get Inventory By Room",
-                "id": "ff0aed80-5053-4bc7-b606-1c33fb5a3091",
+                "id": "e81d8abe-563b-4b89-b118-4649fda99bc0",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -45,13 +45,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2025-12-26T12:34:24.000Z",
-                "updatedAt": "2025-12-26T12:36:06.000Z",
-                "uid": "32420106-ff0aed80-5053-4bc7-b606-1c33fb5a3091"
+                "createdAt": "2026-05-01T06:38:40.000Z",
+                "updatedAt": "2026-05-01T06:38:40.000Z",
+                "uid": "54443657-e81d8abe-563b-4b89-b118-4649fda99bc0"
             },
             {
                 "name": "Update Inventory",
-                "id": "34a5cfc1-0bca-46ca-a81d-a3dd0e93f323",
+                "id": "2421d8a8-1cb6-40e6-88e2-88d91360ce4b",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -91,9 +91,9 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2025-12-26T12:43:51.000Z",
-                "updatedAt": "2026-03-22T01:52:34.000Z",
-                "uid": "32420106-34a5cfc1-0bca-46ca-a81d-a3dd0e93f323"
+                "createdAt": "2026-05-01T06:38:40.000Z",
+                "updatedAt": "2026-05-01T06:38:40.000Z",
+                "uid": "54443657-2421d8a8-1cb6-40e6-88e2-88d91360ce4b"
             }
         ]
     }

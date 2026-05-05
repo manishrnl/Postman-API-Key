@@ -1,18 +1,18 @@
 {
     "collection": {
         "info": {
-            "_postman_id": "171f601a-5f4f-419a-9cbe-b030398d674a",
+            "_postman_id": "f6273f35-17e3-4265-ab59-7c930158d865",
             "name": "Notification",
             "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-            "createdAt": "2026-03-28T16:10:44.000Z",
-            "updatedAt": "2026-04-05T03:01:45.000Z",
-            "lastUpdatedBy": "32420106",
-            "uid": "32420106-171f601a-5f4f-419a-9cbe-b030398d674a"
+            "createdAt": "2026-05-01T06:38:47.000Z",
+            "updatedAt": "2026-05-01T06:38:48.000Z",
+            "lastUpdatedBy": "54443657",
+            "uid": "54443657-f6273f35-17e3-4265-ab59-7c930158d865"
         },
         "item": [
             {
                 "name": "Send Daily Reminder notification",
-                "id": "589c59aa-5b63-430f-a336-55f37c48f6d9",
+                "id": "a2d14873-b9ca-446e-bb70-9dc0cdd30157",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -43,13 +43,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2026-03-28T16:11:02.000Z",
-                "updatedAt": "2026-03-29T05:18:04.000Z",
-                "uid": "32420106-589c59aa-5b63-430f-a336-55f37c48f6d9"
+                "createdAt": "2026-05-01T06:38:48.000Z",
+                "updatedAt": "2026-05-01T06:38:48.000Z",
+                "uid": "54443657-a2d14873-b9ca-446e-bb70-9dc0cdd30157"
             },
             {
                 "name": "Send Daily Expense Notification",
-                "id": "701c4ae7-20f5-43c0-b2f1-5b8957cc7a0a",
+                "id": "672d75ff-79f9-45d3-8aaf-bf91e55017a8",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -80,13 +80,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2026-03-28T16:41:40.000Z",
-                "updatedAt": "2026-03-29T06:02:33.000Z",
-                "uid": "32420106-701c4ae7-20f5-43c0-b2f1-5b8957cc7a0a"
+                "createdAt": "2026-05-01T06:38:48.000Z",
+                "updatedAt": "2026-05-01T06:38:48.000Z",
+                "uid": "54443657-672d75ff-79f9-45d3-8aaf-bf91e55017a8"
             },
             {
                 "name": "Send Income Notification",
-                "id": "5c76c444-4b69-4ae3-a963-965e4148fcc4",
+                "id": "fc31be2d-b1aa-40f0-88dc-fc60d080fee3",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -118,9 +118,9 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2026-04-05T03:01:45.000Z",
-                "updatedAt": "2026-04-05T03:03:15.000Z",
-                "uid": "32420106-5c76c444-4b69-4ae3-a963-965e4148fcc4"
+                "createdAt": "2026-05-01T06:38:48.000Z",
+                "updatedAt": "2026-05-01T06:38:48.000Z",
+                "uid": "54443657-fc31be2d-b1aa-40f0-88dc-fc60d080fee3"
             }
         ]
     }

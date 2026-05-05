@@ -1,18 +1,18 @@
 {
     "collection": {
         "info": {
-            "_postman_id": "984e34c8-4872-43b3-a8d7-7e8f444640db",
+            "_postman_id": "076d719b-ae79-45b7-ab77-71a347a828de",
             "name": "Profile",
             "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-            "createdAt": "2026-03-26T08:00:19.000Z",
-            "updatedAt": "2026-04-06T02:30:15.000Z",
-            "lastUpdatedBy": "32420106",
-            "uid": "32420106-984e34c8-4872-43b3-a8d7-7e8f444640db"
+            "createdAt": "2026-05-01T06:38:49.000Z",
+            "updatedAt": "2026-05-01T06:38:49.000Z",
+            "lastUpdatedBy": "54443657",
+            "uid": "54443657-076d719b-ae79-45b7-ab77-71a347a828de"
         },
         "item": [
             {
                 "name": "Register Users",
-                "id": "f2accb98-1aec-4e47-87ab-31c92e6df8f9",
+                "id": "c25bcd5c-9b56-4935-93ce-babd5c1690e0",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -42,13 +42,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2026-03-26T07:59:22.000Z",
-                "updatedAt": "2026-04-06T03:00:19.000Z",
-                "uid": "32420106-f2accb98-1aec-4e47-87ab-31c92e6df8f9"
+                "createdAt": "2026-05-01T06:38:49.000Z",
+                "updatedAt": "2026-05-01T06:38:49.000Z",
+                "uid": "54443657-c25bcd5c-9b56-4935-93ce-babd5c1690e0"
             },
             {
                 "name": "Get User Profile",
-                "id": "86dd7ae6-ec1b-453f-81a7-da5ce4c2913e",
+                "id": "6740b898-7f53-4999-a758-b8828372b7b9",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -78,13 +78,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2026-03-26T08:30:15.000Z",
-                "updatedAt": "2026-03-30T08:43:21.000Z",
-                "uid": "32420106-86dd7ae6-ec1b-453f-81a7-da5ce4c2913e"
+                "createdAt": "2026-05-01T06:38:49.000Z",
+                "updatedAt": "2026-05-01T06:38:49.000Z",
+                "uid": "54443657-6740b898-7f53-4999-a758-b8828372b7b9"
             },
             {
                 "name": "Login User",
-                "id": "95257615-4583-4ea6-ae6c-c6baa43f9106",
+                "id": "a3787f23-9f62-40b1-afa8-6b60c0139104",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -117,13 +117,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2026-03-30T08:42:36.000Z",
-                "updatedAt": "2026-04-07T09:19:50.000Z",
-                "uid": "32420106-95257615-4583-4ea6-ae6c-c6baa43f9106"
+                "createdAt": "2026-05-01T06:38:49.000Z",
+                "updatedAt": "2026-05-01T06:38:49.000Z",
+                "uid": "54443657-a3787f23-9f62-40b1-afa8-6b60c0139104"
             },
             {
                 "name": "Refresh Token",
-                "id": "25715351-99cc-4770-bd0d-aaa0fc9fd95f",
+                "id": "65718ace-860a-43ef-b6fd-3cb70a1c0f32",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -157,9 +157,9 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2026-04-06T02:30:14.000Z",
-                "updatedAt": "2026-04-06T03:09:23.000Z",
-                "uid": "32420106-25715351-99cc-4770-bd0d-aaa0fc9fd95f"
+                "createdAt": "2026-05-01T06:38:49.000Z",
+                "updatedAt": "2026-05-01T06:38:49.000Z",
+                "uid": "54443657-65718ace-860a-43ef-b6fd-3cb70a1c0f32"
             }
         ],
         "variable": [

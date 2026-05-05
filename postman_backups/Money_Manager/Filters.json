@@ -1,18 +1,18 @@
 {
     "collection": {
         "info": {
-            "_postman_id": "b18364b9-9b76-40fc-9deb-a3433d07956a",
+            "_postman_id": "7ed2cdad-6749-4642-91aa-39ee2e2f97b3",
             "name": "Filters",
             "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-            "createdAt": "2026-03-28T15:11:56.000Z",
-            "updatedAt": "2026-03-28T15:12:19.000Z",
-            "lastUpdatedBy": "32420106",
-            "uid": "32420106-b18364b9-9b76-40fc-9deb-a3433d07956a"
+            "createdAt": "2026-05-01T06:38:45.000Z",
+            "updatedAt": "2026-05-01T06:38:46.000Z",
+            "lastUpdatedBy": "54443657",
+            "uid": "54443657-7ed2cdad-6749-4642-91aa-39ee2e2f97b3"
         },
         "item": [
             {
                 "name": "Filter Data",
-                "id": "9ee8df06-6073-4225-accd-fedaceda0ed0",
+                "id": "bef0cae9-abb3-4215-bde3-294aa490a7fd",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -51,9 +51,9 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2026-03-28T15:12:19.000Z",
-                "updatedAt": "2026-04-05T08:33:04.000Z",
-                "uid": "32420106-9ee8df06-6073-4225-accd-fedaceda0ed0"
+                "createdAt": "2026-05-01T06:38:46.000Z",
+                "updatedAt": "2026-05-01T06:38:46.000Z",
+                "uid": "54443657-bef0cae9-abb3-4215-bde3-294aa490a7fd"
             }
         ]
     }

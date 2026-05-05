@@ -1,10 +1,10 @@
 {
     "environment": {
-        "id": "49d602f4-fd68-46b0-8bd1-f7be4311cbda",
+        "id": "078d783b-6fa4-4d12-be52-c7319a3e466e",
         "name": "New Environment Copy",
-        "owner": "32420106",
-        "createdAt": "2026-01-05T08:16:24.000Z",
-        "updatedAt": "2026-01-05T08:16:24.000Z",
+        "owner": "54443657",
+        "createdAt": "2026-05-01T06:38:41.000Z",
+        "updatedAt": "2026-05-01T06:38:41.000Z",
         "values": [
             {
                 "key": "BASE_URL_8080",
@@ -31,7 +31,7 @@
                 "enabled": true
             }
         ],
-        "uid": "32420106-49d602f4-fd68-46b0-8bd1-f7be4311cbda",
+        "uid": "54443657-078d783b-6fa4-4d12-be52-c7319a3e466e",
         "isPublic": false
     }
 }

@@ -1,18 +1,18 @@
 {
     "collection": {
         "info": {
-            "_postman_id": "858eb0a5-64e3-425a-abaf-4eaac926ce6d",
+            "_postman_id": "0afbf58c-7945-4c64-a4c3-2185504c874b",
             "name": "AirBnb  Rooms",
             "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-            "createdAt": "2025-10-12T12:16:49.000Z",
-            "updatedAt": "2026-03-20T10:08:44.000Z",
-            "lastUpdatedBy": "32420106",
-            "uid": "32420106-858eb0a5-64e3-425a-abaf-4eaac926ce6d"
+            "createdAt": "2026-05-01T06:38:39.000Z",
+            "updatedAt": "2026-05-01T06:38:39.000Z",
+            "lastUpdatedBy": "54443657",
+            "uid": "54443657-0afbf58c-7945-4c64-a4c3-2185504c874b"
         },
         "item": [
             {
                 "name": "Create New Rooms",
-                "id": "96a02e53-a31c-414a-bf69-f259e6b928d1",
+                "id": "bfe7c7bc-9414-4d17-a114-d0b19467eff5",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -52,13 +52,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2025-10-13T12:00:52.000Z",
-                "updatedAt": "2026-03-20T08:14:24.000Z",
-                "uid": "32420106-96a02e53-a31c-414a-bf69-f259e6b928d1"
+                "createdAt": "2026-05-01T06:38:40.000Z",
+                "updatedAt": "2026-05-01T06:38:40.000Z",
+                "uid": "54443657-bfe7c7bc-9414-4d17-a114-d0b19467eff5"
             },
             {
                 "name": "Get All Rooms By Hotel Id",
-                "id": "d485f1ef-94b3-49a9-8d5e-1149c15769e2",
+                "id": "23c4a78b-8078-48b6-980b-ecad58fe86b2",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -79,13 +79,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2025-10-13T13:37:40.000Z",
-                "updatedAt": "2026-03-21T13:55:39.000Z",
-                "uid": "32420106-d485f1ef-94b3-49a9-8d5e-1149c15769e2"
+                "createdAt": "2026-05-01T06:38:40.000Z",
+                "updatedAt": "2026-05-01T06:38:40.000Z",
+                "uid": "54443657-23c4a78b-8078-48b6-980b-ecad58fe86b2"
             },
             {
                 "name": "Get All Rooms",
-                "id": "67ada001-6cc7-4448-95ed-1e13e8ac748d",
+                "id": "ef63bd11-ee49-4da5-af8a-b39c1bafd991",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -103,13 +103,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2026-03-20T08:13:04.000Z",
-                "updatedAt": "2026-03-20T08:13:38.000Z",
-                "uid": "32420106-67ada001-6cc7-4448-95ed-1e13e8ac748d"
+                "createdAt": "2026-05-01T06:38:40.000Z",
+                "updatedAt": "2026-05-01T06:38:40.000Z",
+                "uid": "54443657-ef63bd11-ee49-4da5-af8a-b39c1bafd991"
             },
             {
                 "name": "Get Hotel Name",
-                "id": "b7dc1fe9-59f8-48a8-b3fc-b5705beca834",
+                "id": "c976b1e6-20c3-4f68-83a0-dc45b9440bb4",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -139,13 +139,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2026-03-20T10:08:44.000Z",
-                "updatedAt": "2026-03-20T10:11:16.000Z",
-                "uid": "32420106-b7dc1fe9-59f8-48a8-b3fc-b5705beca834"
+                "createdAt": "2026-05-01T06:38:40.000Z",
+                "updatedAt": "2026-05-01T06:38:40.000Z",
+                "uid": "54443657-c976b1e6-20c3-4f68-83a0-dc45b9440bb4"
             },
             {
                 "name": "Get All Room By Hotel Id",
-                "id": "2fdec483-df2f-4438-8a66-dd72d9a1f546",
+                "id": "4ef3b148-75da-4363-90dd-d4373a3f9be7",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -177,13 +177,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2025-10-14T03:18:06.000Z",
-                "updatedAt": "2026-03-21T14:09:06.000Z",
-                "uid": "32420106-2fdec483-df2f-4438-8a66-dd72d9a1f546"
+                "createdAt": "2026-05-01T06:38:40.000Z",
+                "updatedAt": "2026-05-01T06:38:40.000Z",
+                "uid": "54443657-4ef3b148-75da-4363-90dd-d4373a3f9be7"
             },
             {
                 "name": "Get Room By Room Id",
-                "id": "fe1763be-062c-4881-b53c-8384b27a6961",
+                "id": "7f6d72cb-e594-4b34-bf4b-385e1048942c",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -212,13 +212,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2026-03-20T08:44:30.000Z",
-                "updatedAt": "2026-03-21T15:26:54.000Z",
-                "uid": "32420106-fe1763be-062c-4881-b53c-8384b27a6961"
+                "createdAt": "2026-05-01T06:38:40.000Z",
+                "updatedAt": "2026-05-01T06:38:40.000Z",
+                "uid": "54443657-7f6d72cb-e594-4b34-bf4b-385e1048942c"
             },
             {
                 "name": "Delete Room By Id",
-                "id": "9a7f4603-a9e9-432c-9dd3-539a191a18c1",
+                "id": "d5e65ab3-0817-430e-bbe7-ed4eefc21bfe",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -242,13 +242,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2025-10-14T03:48:03.000Z",
-                "updatedAt": "2025-10-16T11:33:06.000Z",
-                "uid": "32420106-9a7f4603-a9e9-432c-9dd3-539a191a18c1"
+                "createdAt": "2026-05-01T06:38:40.000Z",
+                "updatedAt": "2026-05-01T06:38:40.000Z",
+                "uid": "54443657-d5e65ab3-0817-430e-bbe7-ed4eefc21bfe"
             },
             {
                 "name": "Update Room By Id",
-                "id": "219be867-8570-47b9-b781-fbdc50f8593c",
+                "id": "30d97e4f-2717-4ac7-be38-7d9cfc500604",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -291,9 +291,9 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2025-12-26T12:03:55.000Z",
-                "updatedAt": "2025-12-26T12:42:56.000Z",
-                "uid": "32420106-219be867-8570-47b9-b781-fbdc50f8593c"
+                "createdAt": "2026-05-01T06:38:40.000Z",
+                "updatedAt": "2026-05-01T06:38:40.000Z",
+                "uid": "54443657-30d97e4f-2717-4ac7-be38-7d9cfc500604"
             }
         ]
     }

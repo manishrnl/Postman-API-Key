@@ -1,18 +1,18 @@
 {
     "collection": {
         "info": {
-            "_postman_id": "5908016f-1155-4afd-860e-4b487693a847",
+            "_postman_id": "9866f9f1-11e2-4d9c-a220-ecf12d2afc8b",
             "name": "User Service",
             "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-            "createdAt": "2026-03-17T09:30:10.000Z",
-            "updatedAt": "2026-03-18T10:25:15.000Z",
-            "lastUpdatedBy": "32420106",
-            "uid": "32420106-5908016f-1155-4afd-860e-4b487693a847"
+            "createdAt": "2026-05-01T06:38:40.000Z",
+            "updatedAt": "2026-05-01T06:38:41.000Z",
+            "lastUpdatedBy": "54443657",
+            "uid": "54443657-9866f9f1-11e2-4d9c-a220-ecf12d2afc8b"
         },
         "item": [
             {
                 "name": "Get All Users",
-                "id": "d2a09973-467b-45ac-b0a8-d1bd713c7d1c",
+                "id": "885a4bcc-b7cf-497b-a3d5-d9ad2b1d4b42",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -31,13 +31,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2026-03-17T09:30:13.000Z",
-                "updatedAt": "2026-03-18T02:04:21.000Z",
-                "uid": "32420106-d2a09973-467b-45ac-b0a8-d1bd713c7d1c"
+                "createdAt": "2026-05-01T06:38:41.000Z",
+                "updatedAt": "2026-05-01T06:38:41.000Z",
+                "uid": "54443657-885a4bcc-b7cf-497b-a3d5-d9ad2b1d4b42"
             },
             {
                 "name": "Create Users",
-                "id": "3c56cb36-0131-4929-aa14-1c3d5c9377c8",
+                "id": "051dc7a6-cf22-4415-85eb-0060ae831e07",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -65,13 +65,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2026-03-17T09:53:35.000Z",
-                "updatedAt": "2026-03-18T02:32:11.000Z",
-                "uid": "32420106-3c56cb36-0131-4929-aa14-1c3d5c9377c8"
+                "createdAt": "2026-05-01T06:38:41.000Z",
+                "updatedAt": "2026-05-01T06:38:41.000Z",
+                "uid": "54443657-051dc7a6-cf22-4415-85eb-0060ae831e07"
             },
             {
                 "name": "Get Users Profile",
-                "id": "6cea473a-57f8-454c-8e23-2d65f306c9b7",
+                "id": "ed77c39e-70c9-4474-89ac-29452aaf3418",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -91,13 +91,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2026-03-17T13:21:51.000Z",
-                "updatedAt": "2026-03-17T15:51:39.000Z",
-                "uid": "32420106-6cea473a-57f8-454c-8e23-2d65f306c9b7"
+                "createdAt": "2026-05-01T06:38:41.000Z",
+                "updatedAt": "2026-05-01T06:38:41.000Z",
+                "uid": "54443657-ed77c39e-70c9-4474-89ac-29452aaf3418"
             },
             {
                 "name": "Validate User",
-                "id": "a16f8bf2-3177-4084-b1ec-46d58d031a94",
+                "id": "3de5a5a5-840c-4d80-a366-e12c591bc901",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -118,13 +118,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2026-03-18T01:59:26.000Z",
-                "updatedAt": "2026-03-18T01:59:41.000Z",
-                "uid": "32420106-a16f8bf2-3177-4084-b1ec-46d58d031a94"
+                "createdAt": "2026-05-01T06:38:41.000Z",
+                "updatedAt": "2026-05-01T06:38:41.000Z",
+                "uid": "54443657-3de5a5a5-840c-4d80-a366-e12c591bc901"
             },
             {
                 "name": "New Request",
-                "id": "7372cda5-3d62-4bbc-adf1-d55d1fa0a87f",
+                "id": "cca6af0d-f3c8-4f77-97e9-d0c78252c087",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -153,9 +153,9 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2026-03-18T10:25:15.000Z",
-                "updatedAt": "2026-03-18T13:30:09.000Z",
-                "uid": "32420106-7372cda5-3d62-4bbc-adf1-d55d1fa0a87f"
+                "createdAt": "2026-05-01T06:38:41.000Z",
+                "updatedAt": "2026-05-01T06:38:41.000Z",
+                "uid": "54443657-cca6af0d-f3c8-4f77-97e9-d0c78252c087"
             }
         ]
     }

@@ -1,18 +1,18 @@
 {
     "collection": {
         "info": {
-            "_postman_id": "6c5d9700-ec2a-4e0b-b842-eee2b2ce7554",
+            "_postman_id": "bff59680-7f1f-4b11-aa6b-90398a897aa7",
             "name": "AirBnb Users",
             "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-            "createdAt": "2025-12-26T12:52:48.000Z",
-            "updatedAt": "2025-12-26T13:18:57.000Z",
-            "lastUpdatedBy": "32420106",
-            "uid": "32420106-6c5d9700-ec2a-4e0b-b842-eee2b2ce7554"
+            "createdAt": "2026-05-01T06:38:39.000Z",
+            "updatedAt": "2026-05-01T06:38:39.000Z",
+            "lastUpdatedBy": "54443657",
+            "uid": "54443657-bff59680-7f1f-4b11-aa6b-90398a897aa7"
         },
         "item": [
             {
                 "name": "Update Profile",
-                "id": "9fdb6b08-29d7-4db3-a6a3-efa55b53694a",
+                "id": "280ea948-9285-4dbf-bf0d-80ec3bbc9b00",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -50,13 +50,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2025-12-26T12:53:10.000Z",
-                "updatedAt": "2026-03-22T01:54:48.000Z",
-                "uid": "32420106-9fdb6b08-29d7-4db3-a6a3-efa55b53694a"
+                "createdAt": "2026-05-01T06:38:40.000Z",
+                "updatedAt": "2026-05-01T06:38:40.000Z",
+                "uid": "54443657-280ea948-9285-4dbf-bf0d-80ec3bbc9b00"
             },
             {
                 "name": "My Bookings",
-                "id": "dc2d0b42-b5bb-49d3-85c3-3860e199973b",
+                "id": "1af7033c-632f-4190-bde3-9fd6b5d80166",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -87,13 +87,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2025-12-26T12:55:48.000Z",
-                "updatedAt": "2025-12-26T12:56:45.000Z",
-                "uid": "32420106-dc2d0b42-b5bb-49d3-85c3-3860e199973b"
+                "createdAt": "2026-05-01T06:38:40.000Z",
+                "updatedAt": "2026-05-01T06:38:40.000Z",
+                "uid": "54443657-1af7033c-632f-4190-bde3-9fd6b5d80166"
             },
             {
                 "name": "My Profile",
-                "id": "fe084910-7d44-4185-b1db-2ec0915c93ee",
+                "id": "51e33218-464a-49ae-b479-71e9c61fff0e",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -122,9 +122,9 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2025-12-26T13:18:57.000Z",
-                "updatedAt": "2026-03-22T01:54:23.000Z",
-                "uid": "32420106-fe084910-7d44-4185-b1db-2ec0915c93ee"
+                "createdAt": "2026-05-01T06:38:40.000Z",
+                "updatedAt": "2026-05-01T06:38:40.000Z",
+                "uid": "54443657-51e33218-464a-49ae-b479-71e9c61fff0e"
             }
         ]
     }

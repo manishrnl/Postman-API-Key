@@ -1,18 +1,18 @@
 {
     "collection": {
         "info": {
-            "_postman_id": "7e147598-9451-4856-a2b9-a46b81ff73a6",
+            "_postman_id": "eb7d2b77-4f7b-47f0-9ef1-29d63b650ceb",
             "name": "Income",
             "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-            "createdAt": "2026-03-28T09:06:26.000Z",
-            "updatedAt": "2026-04-04T07:50:23.000Z",
-            "lastUpdatedBy": "32420106",
-            "uid": "32420106-7e147598-9451-4856-a2b9-a46b81ff73a6"
+            "createdAt": "2026-05-01T06:38:45.000Z",
+            "updatedAt": "2026-05-01T06:38:46.000Z",
+            "lastUpdatedBy": "54443657",
+            "uid": "54443657-eb7d2b77-4f7b-47f0-9ef1-29d63b650ceb"
         },
         "item": [
             {
                 "name": "Stock Income",
-                "id": "0016034c-7068-4a4f-9af1-8a18eff8f343",
+                "id": "cb6f58a4-c6f7-4564-a5ed-4fa10edc4095",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -51,13 +51,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2026-03-28T09:06:49.000Z",
-                "updatedAt": "2026-04-05T03:01:43.000Z",
-                "uid": "32420106-0016034c-7068-4a4f-9af1-8a18eff8f343"
+                "createdAt": "2026-05-01T06:38:46.000Z",
+                "updatedAt": "2026-05-01T06:38:46.000Z",
+                "uid": "54443657-cb6f58a4-c6f7-4564-a5ed-4fa10edc4095"
             },
             {
                 "name": "Update Stock Income",
-                "id": "1e4fcf6b-516f-40b6-948c-c2f22b9ecf9e",
+                "id": "0a72f0f1-7e3f-4c1d-a6da-474c360aa919",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -97,13 +97,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2026-04-04T07:50:23.000Z",
-                "updatedAt": "2026-04-05T08:22:27.000Z",
-                "uid": "32420106-1e4fcf6b-516f-40b6-948c-c2f22b9ecf9e"
+                "createdAt": "2026-05-01T06:38:46.000Z",
+                "updatedAt": "2026-05-01T06:38:46.000Z",
+                "uid": "54443657-0a72f0f1-7e3f-4c1d-a6da-474c360aa919"
             },
             {
                 "name": "All Income For Month",
-                "id": "da1ef7f1-ad2a-4f15-adc2-5e799647ccc3",
+                "id": "9275815e-1906-43d4-b2ab-7581114fd198",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -142,13 +142,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2026-03-28T10:23:54.000Z",
-                "updatedAt": "2026-03-29T06:01:56.000Z",
-                "uid": "32420106-da1ef7f1-ad2a-4f15-adc2-5e799647ccc3"
+                "createdAt": "2026-05-01T06:38:46.000Z",
+                "updatedAt": "2026-05-01T06:38:46.000Z",
+                "uid": "54443657-9275815e-1906-43d4-b2ab-7581114fd198"
             },
             {
                 "name": "Latest 5 Incomes",
-                "id": "e10021c8-db12-448c-a35c-584579a479ee",
+                "id": "50d516b0-52a6-41fa-8a0c-841f5f660c78",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -188,13 +188,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2026-04-03T12:15:23.000Z",
-                "updatedAt": "2026-04-03T12:15:42.000Z",
-                "uid": "32420106-e10021c8-db12-448c-a35c-584579a479ee"
+                "createdAt": "2026-05-01T06:38:46.000Z",
+                "updatedAt": "2026-05-01T06:38:46.000Z",
+                "uid": "54443657-50d516b0-52a6-41fa-8a0c-841f5f660c78"
             },
             {
                 "name": "Salary Income",
-                "id": "ad3f5ef0-0859-4616-8e53-f992364e7e07",
+                "id": "befb7f71-4a93-4ccf-843e-7b2bf7cb4de8",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -233,13 +233,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2026-03-28T10:22:33.000Z",
-                "updatedAt": "2026-04-03T13:01:37.000Z",
-                "uid": "32420106-ad3f5ef0-0859-4616-8e53-f992364e7e07"
+                "createdAt": "2026-05-01T06:38:46.000Z",
+                "updatedAt": "2026-05-01T06:38:46.000Z",
+                "uid": "54443657-befb7f71-4a93-4ccf-843e-7b2bf7cb4de8"
             },
             {
                 "name": "Delete Income By Id",
-                "id": "d6759c37-6a52-4514-b17b-2c7c2d8f747b",
+                "id": "4861f865-0668-45de-92eb-ec14ea3553c6",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -276,9 +276,9 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2026-03-28T10:49:03.000Z",
-                "updatedAt": "2026-03-28T10:49:55.000Z",
-                "uid": "32420106-d6759c37-6a52-4514-b17b-2c7c2d8f747b"
+                "createdAt": "2026-05-01T06:38:46.000Z",
+                "updatedAt": "2026-05-01T06:38:46.000Z",
+                "uid": "54443657-4861f865-0668-45de-92eb-ec14ea3553c6"
             }
         ]
     }

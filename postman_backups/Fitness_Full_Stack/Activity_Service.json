@@ -1,18 +1,18 @@
 {
     "collection": {
         "info": {
-            "_postman_id": "6c4cb109-d8fe-4b34-8023-f0611cafe409",
+            "_postman_id": "cbc1be17-89cd-4d6e-bb8f-288d1a5e424a",
             "name": "Activity Service",
             "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-            "createdAt": "2026-03-17T15:35:49.000Z",
-            "updatedAt": "2026-03-17T15:36:03.000Z",
-            "lastUpdatedBy": "32420106",
-            "uid": "32420106-6c4cb109-d8fe-4b34-8023-f0611cafe409"
+            "createdAt": "2026-05-01T06:38:40.000Z",
+            "updatedAt": "2026-05-01T06:38:41.000Z",
+            "lastUpdatedBy": "54443657",
+            "uid": "54443657-cbc1be17-89cd-4d6e-bb8f-288d1a5e424a"
         },
         "item": [
             {
                 "name": "Track Activity",
-                "id": "841b692d-e2ec-496a-8501-eee8665c9a10",
+                "id": "a029dc84-63d0-481c-8a30-5a71be1b720e",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -39,9 +39,9 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2026-03-17T15:36:03.000Z",
-                "updatedAt": "2026-03-18T02:59:41.000Z",
-                "uid": "32420106-841b692d-e2ec-496a-8501-eee8665c9a10"
+                "createdAt": "2026-05-01T06:38:41.000Z",
+                "updatedAt": "2026-05-01T06:38:41.000Z",
+                "uid": "54443657-a029dc84-63d0-481c-8a30-5a71be1b720e"
             }
         ]
     }

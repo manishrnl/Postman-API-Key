@@ -1,18 +1,18 @@
 {
     "collection": {
         "info": {
-            "_postman_id": "458f6324-b316-4ba7-a49d-7983f9528c29",
+            "_postman_id": "afe93f58-f32b-4edd-a200-c6cec183ca4a",
             "name": "Order Service",
             "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-            "createdAt": "2026-01-05T07:24:13.000Z",
-            "updatedAt": "2026-01-25T02:33:20.000Z",
-            "lastUpdatedBy": "32420106",
-            "uid": "32420106-458f6324-b316-4ba7-a49d-7983f9528c29"
+            "createdAt": "2026-05-01T06:38:37.000Z",
+            "updatedAt": "2026-05-01T06:38:37.000Z",
+            "lastUpdatedBy": "54443657",
+            "uid": "54443657-afe93f58-f32b-4edd-a200-c6cec183ca4a"
         },
         "item": [
             {
                 "name": "Get All Orders",
-                "id": "6b784bcd-e717-4fee-90aa-e55d4131ffcc",
+                "id": "e6222efb-8d5b-4d7d-9122-99c4cbe642e6",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -45,13 +45,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2026-01-05T08:03:37.000Z",
-                "updatedAt": "2026-02-03T11:34:48.000Z",
-                "uid": "32420106-6b784bcd-e717-4fee-90aa-e55d4131ffcc"
+                "createdAt": "2026-05-01T06:38:38.000Z",
+                "updatedAt": "2026-05-01T06:38:38.000Z",
+                "uid": "54443657-e6222efb-8d5b-4d7d-9122-99c4cbe642e6"
             },
             {
                 "name": "Get Orders By Id",
-                "id": "5ac0b6f9-5301-4149-bc03-55523457e704",
+                "id": "d049f08b-81d2-4c4d-b8ef-d5f0af382a52",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -85,13 +85,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2026-01-05T08:05:11.000Z",
-                "updatedAt": "2026-01-25T14:50:04.000Z",
-                "uid": "32420106-5ac0b6f9-5301-4149-bc03-55523457e704"
+                "createdAt": "2026-05-01T06:38:38.000Z",
+                "updatedAt": "2026-05-01T06:38:38.000Z",
+                "uid": "54443657-d049f08b-81d2-4c4d-b8ef-d5f0af382a52"
             },
             {
                 "name": "Create Order Via Api Gateway",
-                "id": "8c0e6a19-01c8-4324-bb66-fa56ef5d5764",
+                "id": "2b4009f1-bcf6-4044-a4ae-869eacf5e3c6",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -134,13 +134,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2026-01-05T13:02:57.000Z",
-                "updatedAt": "2026-02-03T13:29:13.000Z",
-                "uid": "32420106-8c0e6a19-01c8-4324-bb66-fa56ef5d5764"
+                "createdAt": "2026-05-01T06:38:38.000Z",
+                "updatedAt": "2026-05-01T06:38:38.000Z",
+                "uid": "54443657-2b4009f1-bcf6-4044-a4ae-869eacf5e3c6"
             },
             {
                 "name": "Create Order",
-                "id": "6017fcce-0019-4080-8c2f-30d30e43daa4",
+                "id": "3865dc81-39e0-4c0b-808f-d587719edcfc",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -183,13 +183,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2026-01-07T09:21:07.000Z",
-                "updatedAt": "2026-01-25T02:35:05.000Z",
-                "uid": "32420106-6017fcce-0019-4080-8c2f-30d30e43daa4"
+                "createdAt": "2026-05-01T06:38:38.000Z",
+                "updatedAt": "2026-05-01T06:38:38.000Z",
+                "uid": "54443657-3865dc81-39e0-4c0b-808f-d587719edcfc"
             },
             {
                 "name": "Hello Orders Via APi Gateway",
-                "id": "a6c2fabb-b047-450a-935e-50151ed8b23c",
+                "id": "c7d8f8ba-434d-4504-a15b-8450bb62e23d",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -223,13 +223,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2026-01-20T06:37:28.000Z",
-                "updatedAt": "2026-01-29T05:05:43.000Z",
-                "uid": "32420106-a6c2fabb-b047-450a-935e-50151ed8b23c"
+                "createdAt": "2026-05-01T06:38:38.000Z",
+                "updatedAt": "2026-05-01T06:38:38.000Z",
+                "uid": "54443657-c7d8f8ba-434d-4504-a15b-8450bb62e23d"
             },
             {
                 "name": "Refresh Config Server",
-                "id": "ac556ba3-df57-47ea-b946-7d6e7f2a4dde",
+                "id": "26cac39c-2ae7-488c-a7d1-7091f9f267f7",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -263,9 +263,9 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2026-01-22T04:51:05.000Z",
-                "updatedAt": "2026-01-25T02:32:55.000Z",
-                "uid": "32420106-ac556ba3-df57-47ea-b946-7d6e7f2a4dde"
+                "createdAt": "2026-05-01T06:38:38.000Z",
+                "updatedAt": "2026-05-01T06:38:38.000Z",
+                "uid": "54443657-26cac39c-2ae7-488c-a7d1-7091f9f267f7"
             }
         ]
     }

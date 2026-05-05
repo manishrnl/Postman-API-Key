@@ -1,13 +1,13 @@
 {
     "collection": {
         "info": {
-            "_postman_id": "f826ca17-6e68-4d2d-b82b-05e960c6b3f0",
+            "_postman_id": "3a03d007-e81b-4fce-a3c7-92c0f8ca11b1",
             "name": "Notification Service",
             "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-            "createdAt": "2026-01-30T10:17:31.000Z",
-            "updatedAt": "2026-01-30T10:17:44.000Z",
-            "lastUpdatedBy": "32420106",
-            "uid": "32420106-f826ca17-6e68-4d2d-b82b-05e960c6b3f0"
+            "createdAt": "2026-05-01T06:38:41.000Z",
+            "updatedAt": "2026-05-01T06:38:41.000Z",
+            "lastUpdatedBy": "54443657",
+            "uid": "54443657-3a03d007-e81b-4fce-a3c7-92c0f8ca11b1"
         },
         "item": []
     }

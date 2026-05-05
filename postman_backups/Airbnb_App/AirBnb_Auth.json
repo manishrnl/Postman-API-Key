@@ -1,18 +1,18 @@
 {
     "collection": {
         "info": {
-            "_postman_id": "eed56ccb-c08b-453b-b94f-6606f4e131e9",
+            "_postman_id": "f875647d-69e8-40a7-b5ca-76e535370f6c",
             "name": "AirBnb Auth",
             "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-            "createdAt": "2025-12-16T11:58:01.000Z",
-            "updatedAt": "2025-12-16T11:58:54.000Z",
-            "lastUpdatedBy": "32420106",
-            "uid": "32420106-eed56ccb-c08b-453b-b94f-6606f4e131e9"
+            "createdAt": "2026-05-01T06:38:37.000Z",
+            "updatedAt": "2026-05-01T06:38:38.000Z",
+            "lastUpdatedBy": "54443657",
+            "uid": "54443657-f875647d-69e8-40a7-b5ca-76e535370f6c"
         },
         "item": [
             {
                 "name": "Login",
-                "id": "bf0608e6-3282-4879-841e-acfe19334e57",
+                "id": "07bfefa6-fe9a-4b48-9023-6a890a794dbf",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -47,13 +47,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2025-11-14T07:43:54.000Z",
-                "updatedAt": "2026-03-21T04:38:30.000Z",
-                "uid": "32420106-bf0608e6-3282-4879-841e-acfe19334e57"
+                "createdAt": "2026-05-01T06:38:38.000Z",
+                "updatedAt": "2026-05-01T06:38:38.000Z",
+                "uid": "54443657-07bfefa6-fe9a-4b48-9023-6a890a794dbf"
             },
             {
                 "name": "Signup",
-                "id": "db99a493-043d-4b0c-9457-5112502e5b15",
+                "id": "d1667d2f-1f4c-4303-b369-71cbea697695",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -88,13 +88,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2025-11-07T08:00:50.000Z",
-                "updatedAt": "2026-03-21T04:36:31.000Z",
-                "uid": "32420106-db99a493-043d-4b0c-9457-5112502e5b15"
+                "createdAt": "2026-05-01T06:38:38.000Z",
+                "updatedAt": "2026-05-01T06:38:38.000Z",
+                "uid": "54443657-d1667d2f-1f4c-4303-b369-71cbea697695"
             },
             {
                 "name": "Refresh Token",
-                "id": "6f2d47d1-ac37-4773-9a9e-658a75511cc4",
+                "id": "e6c9d840-876d-426f-b7fc-51268b01947c",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -116,13 +116,13 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2025-11-14T07:43:41.000Z",
-                "updatedAt": "2026-03-20T07:59:24.000Z",
-                "uid": "32420106-6f2d47d1-ac37-4773-9a9e-658a75511cc4"
+                "createdAt": "2026-05-01T06:38:38.000Z",
+                "updatedAt": "2026-05-01T06:38:38.000Z",
+                "uid": "54443657-e6c9d840-876d-426f-b7fc-51268b01947c"
             },
             {
                 "name": "fetch Name By Email",
-                "id": "8c733c6e-2334-4804-b78d-a67c620427be",
+                "id": "60af7e67-dad4-48c5-8d50-e7d91e63c9f0",
                 "protocolProfileBehavior": {
                     "disableBodyPruning": true
                 },
@@ -160,9 +160,9 @@
                     }
                 },
                 "response": [],
-                "createdAt": "2025-11-13T04:41:06.000Z",
-                "updatedAt": "2026-03-20T07:58:51.000Z",
-                "uid": "32420106-8c733c6e-2334-4804-b78d-a67c620427be"
+                "createdAt": "2026-05-01T06:38:38.000Z",
+                "updatedAt": "2026-05-01T06:38:38.000Z",
+                "uid": "54443657-60af7e67-dad4-48c5-8d50-e7d91e63c9f0"
             }
         ]
     }
